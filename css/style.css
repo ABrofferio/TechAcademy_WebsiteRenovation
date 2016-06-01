@@ -388,16 +388,8 @@ div.row p{  /*ADDED 2/9/16 TO GET SPACE BETWEEN THE SIDE OF TEXT AND GRID BOX BO
   //padding-top: -100px; /* newly added*/
 }
 
-#col1row1{
-	width: 60%;
-}
-
-#col2row1{
-	width: 40%;
-}
-
-#col1row2{
-	width: 100%;
+#topList p{
+	font-size: 21px;
 }
 
 #carousel-home {
@@ -795,11 +787,11 @@ blockquote {
     }
 
     .carousel-caption > p{
-        font-size: 80%;
+        font-size: 60%;
     }
 
     .carousel-caption > h1{
-        font-size: 100%;
+        font-size: 80%;
     }
 
     .tales {
