@@ -203,47 +203,7 @@ _atrk_opts = { atrk_acct:"jT90m1a8FRh2cN", domain:"learncodinganywhere.com",dyna
     <script src="js/npm.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     
-    <script>
-    	$(document).ready(function() {
-    		$('#tour-container').fadeIn(2000);		
-		});
-		
-        $(document).ready(function(){
-		        $('.your-class').slick({
-                dots: true,
-                infinite: true,
-                speed: 1500,
-                fade: true,
-                cssEase: 'linear',
-                adaptiveHeight: true,
-                autoplay: true,
-                autoplaySpeed: 5000,
-            });		
-            function waitThenDoSomething(waitTimeInMS, myAction) {
-                setTimeout(function () {
-                    if (myAction == "displayPopup") {
-                        $('#myModalPopUp').modal('show');
-                    }
-                }, waitTimeInMS); //time in ms to wait before modal dialog box shows up.
-            }
-            if (document.referrer == "https://learncodinganywhere.com/index.html" || document.referrer == "https://learncodinganywhere.com/") {
-                waitThenDoSomething(0, "displayPopup"); //this function waits 0 milliseconds before displaying a popup.
-                //I left the wait function here so that if you change your mind and decide you want to wait before showing 
-                //the modal dialog box, it's as easy as changing the 0 above to a different number, rather than recoding 
-                //all of it again.
-            }
-            $(window).ready(function () { $(window).scroll() });
-            $(window).scroll(function () {
-                $(".slideanim").each(function () {
-                    var pos = $(this).offset().top;
-
-                    var winTop = $(window).scrollTop();
-                    if (pos < winTop + $(window).height()) {
-                        $(this).addClass("slide");
-                    }
-                });
-            });
-        });
+    <script type="text/javascript" src="js/tour-the-tech-academy.js">
 		
     </script>
 </body>
