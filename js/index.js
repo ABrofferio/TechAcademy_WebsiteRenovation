@@ -18,8 +18,10 @@ $(document).ready(function () {
             $(".text-center").scrollTop(0);
             $(".container").hide();
             $("#coverPic").fadeOut(2000);
-            $(".container").fadeIn(4000);
-            $("header").fadeIn(4000);
+            $(".container").delay(2000);
+            $("header").delay(2000);
+            $(".container").fadeIn(200);
+            $("header").fadeIn(200);
             $(".text-center").scrollTop(0);
             $("navText").click(function () { $(this).removeClass("navText")})
             $(window).ready(function () { $(window).scroll() });

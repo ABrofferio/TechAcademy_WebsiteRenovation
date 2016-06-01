@@ -15,6 +15,7 @@ body {
     letter-spacing: 4px;
     /*color: #FFFFFF;*/
     color: rgba(45, 45, 48, 1);
+    font-size: 28px;
 }
 h3{
     color: rgba(45, 45, 48,1);
@@ -193,13 +194,7 @@ h2, h4{
     margin: 35px;
     margin-bottom: 10px;
 }
-/*Dallin's*/
-#indexHeaderText:hover {
-    animation: scale .5s forwards;
- }
-
- 
- 
+  
  /* CONTACT INFO PAGE_SPECIFIC CSS */
  #contactForm  #Email {
     height: 50px !important;
@@ -336,8 +331,8 @@ div.row {
   padding: 0px;
 }
 div.row p{  /*ADDED 2/9/16 TO GET SPACE BETWEEN THE SIDE OF TEXT AND GRID BOX BOUNDARIES*/
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 	/*margin-top: 15px; /*THIS WAS THE ROOT CUASE OF GRID ON MOBILE HAVING SPACE BETWEEN SOME ROWS. WE MAY NEED TO SEPERATE OUT MOBILE-VS-DESKTOP ON THIS*/
     margin-top: 0px; 
 }
@@ -588,6 +583,15 @@ blockquote {
     color: inherit;
     text-align: justify;
 }
+
+#col1row2{
+	font-size: 20px;
+}
+
+#col1row3{
+	font-size: 20px;
+}
+
 .sixty { /*Dallin*/
     font-size: 60%;
 }
