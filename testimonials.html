@@ -179,6 +179,73 @@
             <div class="col-lg-2">
             </div>
         </div><!-- End Row 8 -->
+
+         <div id="myModalPopUp" class="modal fade" role="dialog"> <!-- modal dialog box -->
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">Hi there!</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Would you like to learn more about The Tech Academy?</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn modal-button-yes" id="yes-modal-btn">Yes</a>
+                    <a class="btn" data-dismiss="modal">No</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModalPopUpContact" class="modal fade" role="dialog">
+        <!-- modal dialog box -->
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">Contact Us!</h3>
+                </div>
+                <div class="modal-body-contact" id="contactForm">
+                    <form method="POST" action="http://plus.allforms.mailjol.net/u/b1749119.php">
+
+                        <div class="questions form-group">
+                            <div id="selectBox">
+                                <input id="Name" class="sixty" type="text" name="Name" placeholder="ENTER YOUR NAME" required />
+                            </div>
+                        </div>
+                        <div class="questions form-group">
+                            <div id="selectBox">
+                                <input id="Email" class="sixty" type="text" name="Email" placeholder="ENTER YOUR EMAIL you@yourdomain.com" required />
+                            </div>
+                        </div>
+                        <div class="questions form-group">
+                            <div id="selectBox">
+                                <input id="Phone" class="sixty" type="text" name="Phone" placeholder="ENTER YOUR PHONE NUMBER" required />
+                            </div>
+                        </div>
+                        <div class="questions form-group">
+                            <div id="selectBox" class="questions">
+                                <textarea id="MessagePopUp" name="Message" placeholder="ENTER YOUR MESSAGE" required></textarea>
+                            </div>
+                        </div>
+                        <div class="questions form-group">
+                            <div id="selectBox" class="questions">
+                                <input id="Ad" class="sixty" name="ad" placeholder="HOW DID YOU HEAR ABOUT US?" required />
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" id="submitButton" class="btn btn-default">SUBMIT</button>
+                            <p></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
     
 
     <!--  Site footer  -->
@@ -264,7 +331,7 @@ _atrk_opts = { atrk_acct:"jT90m1a8FRh2cN", domain:"learncodinganywhere.com",dyna
     <script src="js/bootstrap.min.js"></script>
     <script src="js/npm.js"></script>
 	
-	<script src="js/testimonials.js" type="text/javascript"
+	<script src="js/testimonials.js" type="text/javascript">
 		
 	</script>
 </body>
