@@ -91,11 +91,43 @@
 						</div>
 					</div>
 					<div class="questions form-group">
+						<div id="selectBox"><input id="AddPhone" type="text" name="AddPhone" placeholder="ENTER ADDITIONAL PHONE NUMBER" class="sixty"/>
+						</div>
+					</div>
+					<div class="questions form-group">
+						<div id="selectBox"><textarea id="Address" type="text" name="Address" placeholder="ENTER YOUR ADDRESS" class="MessagePopUp"></textarea>
+						</div>
+					</div>
+					
+					<div class="questions form-group">
+						<select id="studyDropDown">
+							<option value="default">HOW WILL YOU BE STUDYING OUR PROGRAM?</option>
+							<option value="online">ONLINE STUDY (REMOTE, FROM HOME, INTERNATIONAL)</option>
+							<option value="in_person">IN-PERSON STUDY (STUDY AT OUR SCHOOL IN PORTLAND)</option>
+							<option value="not_studying">I AM NOT CONTACTING YOU TO STUDY THE PROGRAM</option>
+						</select>
+					</div>
+					<div class="questions form-group">
 						<div id="selectBox" class="questions"><textarea id="Message" name="Message" placeholder="ENTER YOUR MESSAGE" class="MessagePopUp" required></textarea>
 						</div>
 					</div>
 					<div class="questions form-group">
-						<div id="selectBox" class="questions"><input id="Ad" name="ad" placeholder="HOW DID YOU HEAR ABOUT US?" class="sixty" required />
+						<select id="hearDropDown" required>
+							<option value="default">HOW DID YOU HEAR ABOUT THE TECH ACADEMY?</option>
+							<option value="radio">RADIO</option>
+							<option value="online_search">ONLINE SEARCH</option>
+							<option value="google">GOOGLE</option>
+							<option value="friend">FRIEND</option>
+							<option value="student">STUDENT</option>
+							<option value="graduate">GRADUATE</option>
+							<option value="course_report">COURSE REPORT</option>
+							<option value="switchup">SWITCHUP</option>
+							<option value="bootcamps.in">BOOTCAMPS.IN</option>
+							<option value="other">OTHER</option>
+						</select>
+					</div>
+					<div class="questions form-group">
+						<div id="selectBox"><input id="otherchoice" type="text" name="otherchoice" placeholder="How did you hear about us?" class="sixty"/>
 						</div>
 					</div>
 					<div class="text-center"><button type="submit" id="submitButton" class="btn btn-default">SUBMIT</button>

@@ -236,6 +236,82 @@ h2, h4{
 
 }
 
+ #contactForm  #AddPhone {
+    height: 50px !important;
+    border: 5px solid rgba(45, 45, 48,1) !important;
+    background: transparent !important;
+    color: rgba(45, 45, 48,1) !important;
+    letter-spacing: 1px !important;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	padding: 10px !important;
+	margin-top: 10px !important;
+
+}
+ #contactForm  #Address {
+    height: 85px !important;
+    border: 5px solid rgba(45, 45, 48,1) !important;
+    background: transparent !important;
+    color: rgba(45, 45, 48,1) !important;
+    letter-spacing: 1px !important;
+    font-size: 14px;
+    font-weight: bold;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	padding: 10px !important;
+	margin-top: 10px !important;
+
+}
+
+ #contactForm  #studyDropDown {
+    height: 50px !important;
+    border: 5px solid rgba(45, 45, 48,1) !important;
+    background: transparent !important;
+    letter-spacing: 1px !important;
+    font-size: 60%;
+    font-weight: bold;
+    color: grey;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	padding: 10px !important;
+	margin-top: 10px !important;
+
+}
+
+ #contactForm  #hearDropDown {
+    height: 50px !important;
+    border: 5px solid rgba(45, 45, 48,1) !important;
+    background: transparent !important;
+    letter-spacing: 1px !important;
+    font-size: 60%;
+    font-weight: bold;
+    color: grey;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	padding: 10px !important;
+	margin-top: 10px !important;
+
+}
+
+ #contactForm  #otherchoice {
+    height: 50px !important;
+    border: 5px solid rgba(45, 45, 48,1) !important;
+    background: transparent !important;
+    color: rgba(45, 45, 48,1) !important;
+    letter-spacing: 1px !important;
+    font-size: 14px;
+    font-weight: bold;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	padding: 10px !important;
+	margin-top: 10px !important;
+ }
+
  #contactForm  #Message {
     height: 200px !important;
 	font-size: 14px;
