@@ -75,8 +75,10 @@
         <div class="row">
             <div id="offEdges">
                 <h1>DIGITAL TOUR</h1>
-                <p style="text-align:justify;" class="lead">The Software Developer Boot Camp is available in full online and can be taken from anywhere in the world. We have online students all across America and in other countries. For example, there are students studying our program from their homes in Europe. The Tech Academy is located in beautiful Portland, Oregon. All of our employees are located at our Portland office and for students who live in Oregon, the program can be done at the Portland campus. Are you in Portland? Come on down for a tour! Here are some photos of our offices:</p>
+                <p style="text-align:justify;" class="lead">The Software Developer Boot Camp is available in full online and can be taken from anywhere in the world. We have online students all across America and in other countries. For example, there are students studying our program from their homes in Europe. The Tech Academy is located in beautiful Portland, Oregon. All of our employees are located at our Portland office and for students who live in Oregon, the program can be done at the Portland campus.<span style= "text-decoration:underline" onClick="showContactForm()"> Are you in Portland? Come on down for a tour! </span> Here are some photos of our offices:</p>
             </div>      
+
+
 
 <!-- Start of the bootstrap carousel -->
 <div class="your-class">
@@ -213,6 +215,73 @@
             <p class="lead">Are you interested in attending in-person or from home? <a href="contact.html">Contact us</a> now. You can start today!</p>
         </div>
 
+<!-- Start of the Popup Form -->
+<div id="myModalPopUp" class="modal fade" role="dialog"> <!-- modal dialog box -->
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">Hi there!</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Would you like to learn more about The Tech Academy?</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn modal-button-yes" id="yes-modal-btn">Yes</a>
+                    <a class="btn" data-dismiss="modal">No</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModalPopUpContact" class="modal fade" role="dialog">
+        <!-- modal dialog box -->
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="modal-title">Contact Us!</h3>
+                </div>
+                <div class="modal-body-contact" id="contactForm">
+                    <form method="POST" action="http://plus.allforms.mailjol.net/u/b1749119.php">
+
+                        <div class="questions form-group">
+                            <div id="selectBox">
+                                <input id="Name" class="sixty" type="text" name="Name" placeholder="ENTER YOUR NAME" required />
+                            </div>
+                        </div>
+                        <div class="questions form-group">
+                            <div id="selectBox">
+                                <input id="Email" class="sixty" type="text" name="Email" placeholder="ENTER YOUR EMAIL you@yourdomain.com" required />
+                            </div>
+                        </div>
+                        <div class="questions form-group">
+                            <div id="selectBox">
+                                <input id="Phone" class="sixty" type="text" name="Phone" placeholder="ENTER YOUR PHONE NUMBER" required />
+                            </div>
+                        </div>
+                        <div class="questions form-group">
+                            <div id="selectBox" class="questions"><textarea id="Message" name="Message" placeholder="ENTER YOUR MESSAGE" class="MessagePopUp" required></textarea>
+                            </div>
+                        </div>
+                        <div class="questions form-group">
+                            <div id="selectBox" class="questions">
+                                <input id="Ad" class="sixty" name="ad" placeholder="HOW DID YOU HEAR ABOUT US?" required />
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" id="submitButton" class="btn btn-default">SUBMIT</button>
+                            <p></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--  Site footer  -->
     <footer class="footer">         
         <div class="row">
@@ -226,7 +295,7 @@
                 <li><a href="contact-the-tech-academy-by-email-address-and-phone-number">Contact</a></li>
                 <li><a href="staff-and-employees-of-the-tech-academy">Staff</a></li>
                 <li><a href="employers-contact-for-the-tech-academy-companies-that-hire-graduates">Employers</a></li>
-                <li><a href="the-tech-academy-blog">Blog</a></li>
+                <li><a href="blog">Blog</a></li>
             </ul>
             <div id="footAddress">
                 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><strong><i class="fa fa-building fa-lg slideanim"></i> The Tech Academy</strong><br/>
