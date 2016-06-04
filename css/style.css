@@ -201,6 +201,21 @@ h2, h4{
  
  
  /* CONTACT INFO PAGE_SPECIFIC CSS */
+ 
+  #contactForm  #Name {
+    height: 50px !important;
+    border: 5px solid rgba(45, 45, 48,1) !important;
+    background: transparent !important;
+    color: rgba(45, 45, 48,1) !important;
+    letter-spacing: 1px !important;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	padding: 10px !important;
+	margin-top: 10px !important;
+
+}
+ 
  #contactForm  #Email {
     height: 50px !important;
     border: 5px solid rgba(45, 45, 48,1) !important;
@@ -241,6 +256,56 @@ h2, h4{
 
 }
 
+
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ #contactForm  #AddPhone {
+    height: 50px !important;
+    border: 5px solid rgba(45, 45, 48,1) !important;
+    background: transparent !important;
+    color: rgba(45, 45, 48,1) !important;
+    letter-spacing: 1px !important;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	padding: 10px !important;
+	margin-top: 10px !important;
+
+}
+ #contactForm  #Address {
+    height: 85px !important;
+    border: 5px solid rgba(45, 45, 48,1) !important;
+    background: transparent !important;
+    color: rgba(45, 45, 48,1) !important;
+    letter-spacing: 1px !important;
+    font-size: 14px;
+    font-weight: bold;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	padding: 10px !important;
+	margin-top: 10px !important;
+
+}
+
+ #contactForm  #studyDropDown {
+    height: 50px !important;
+    border: 5px solid rgba(45, 45, 48,1) !important;
+    background: transparent !important;
+    letter-spacing: 1px !important;
+    font-size: 60%;
+    font-weight: bold;
+    color: grey;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	padding: 10px !important;
+	margin-top: 10px !important;
+
+}
+
  #contactForm  #Message {
     height: 200px !important;
 	font-size: 14px;
@@ -256,7 +321,54 @@ h2, h4{
 
 }
 
- #contactForm  #Name {
+ #contactForm  #hearDropDown {
+    height: 50px !important;
+    border: 5px solid rgba(45, 45, 48,1) !important;
+    background: transparent !important;
+    letter-spacing: 1px !important;
+    font-size: 60%;
+    font-weight: bold;
+    color: grey;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	padding: 10px !important;
+	margin-top: 10px !important;
+
+}
+
+ #contactForm  #otherchoice {
+    height: 50px !important;
+    border: 5px solid rgba(45, 45, 48,1) !important;
+    background: transparent !important;
+    color: rgba(45, 45, 48,1) !important;
+    letter-spacing: 1px !important;
+    font-size: 14px;
+    font-weight: bold;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	padding: 10px !important;
+	margin-top: 10px !important;
+ }
+ #contactForm #datetimepicker1 {
+    height: 100px !important;
+    font-size: 14px;
+    border: 5px solid rgba(45, 45, 48,1) !important;
+    background: transparent !important;
+    color: rgba(45, 45, 48,1) !important;
+    letter-spacing: 1px !important;
+	width: 80% !important;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+	padding: 10px !important;
+	margin-top: 10px !important;
+ }
+ 
+   #contactForm .glyphicon {
+    color: rgba(45, 45, 48,1) !important;
+ }
+  #contactForm #datetimepicker2 {
     height: 50px !important;
     border: 5px solid rgba(45, 45, 48,1) !important;
     background: transparent !important;
@@ -267,9 +379,8 @@ h2, h4{
 	margin-right: 10% !important;
 	padding: 10px !important;
 	margin-top: 10px !important;
-
-}
-
+ }
+ 
  #contactForm  #submitButton {
     height: 50px !important;
     border: 5px solid rgba(45, 45, 48,1) !important;
@@ -530,6 +641,7 @@ blockquote {
     font-size: 1.3em;
     font-weight: bold;
 
+<<<<<<< Updated upstream
 }
 
 .panel-title a {
@@ -538,6 +650,16 @@ blockquote {
     margin: -10px -15px;
 }
 
+=======
+}
+
+.panel-title a {
+    display: block;
+    padding: 10px 15px;
+    margin: -10px -15px;
+}
+
+>>>>>>> Stashed changes
 .panel-body {
 	font-size: 1.3em;
 }

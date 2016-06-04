@@ -14,6 +14,22 @@ $(document).ready(function() {
 			        }
 			    });
 			});
+			$("#otherchoice").hide();
+			$("#hearDropDown").change(function(){
+					if($("#hearDropDown").val() == "other"){
+						$("#otherchoice").show();
+					}
+					else
+					{
+						$("#otherchoice").hide();
+					}
+			});
+			$(function() {
+			$('#datetimepicker1').datetimepicker('setDaysOfWeekDisabled', [0,6]);
+			});
+			$(function() {
+			$('#datetimepicker2').datetimepicker('setDaysOfWeekDisabled', [0,6]);
+			});
 		});
 		
 					
