@@ -637,9 +637,10 @@ blockquote {
 .img_fit {
   max-width: 100%;
   opacity: 0.4;
-  filter: alpha(opacity=40);  }
+  filter: alpha(opacity=40);  
+}
 
- CSS for about page image hover 
+ /*CSS for about page image hover */
 .img_fit:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); 
