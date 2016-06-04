@@ -651,7 +651,6 @@ blockquote {
     font-weight: bold;
 
 <<<<<<< Updated upstream
-}
 
 .panel-title a {
     display: block;
@@ -1135,8 +1134,8 @@ a.btn-lg:active
     /* The name of the animation */
     animation-name: slide;
     -webkit-animation-name: slide; 
-    /* The duration of the animation */
-    animation-duration: 2s; 
+     The duration of the animation 
+    animation-duration: 10s; 
     -webkit-animation-duration: 1s;
     /* Make the element visible */
     visibility: visible; 
@@ -1467,27 +1466,29 @@ color: #495a62;
 
 /*Dallin's, sets original color for transition on about*/
 .largerTxt {
-    color: #777;
+    color: #000;
     transition-property: color;
     transition-duration: .5s;
     transition-timing-function: linear;
 }
 /*Dallin's, transitions to black*/
+/* Added for transition in font to more bold when hover*/
 .largerTxt:hover {
     color: #000;
+    font-weight:bold;
 }
 /*Dallin's, dynamic effect on PITC picture*/
 
 @-webkit-keyframes pulse {
     from {-webkit-transform: scale(1);}
-    to {-webkit-transform: scale(1.5);}
+    to {-webkit-transform: scale(1.08);}
 }
 
-.pitc:hover { /*Dallin's*/
+.pitc:hover { /*Dallin's */
     -webkit-animation-name: pulse;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: linear;
-    -webkit-animation-duration: .3s;
+    -webkit-animation-duration: .4s;
     -webkit-animation-fill-mode: forwards;
 }
 
