@@ -1457,12 +1457,13 @@ color: #495a62;
 
 /*Dallin's, the next two make about better spaced.*/
 .largerTxt p  {
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 /*Dallin's*/
 .aboutSpacing {
     padding-top: 40px;
 }
+
 
 /*Dallin's, sets original color for transition on about*/
 .largerTxt {
@@ -1477,11 +1478,26 @@ color: #495a62;
     color: #000;
     font-weight:bold;
 }
+
+#first{
+  font-size: 1.2em;
+}
+
+/* Turns text bold when hover */
+#first:hover{
+  font-weight: bold;
+}
 /*Dallin's, dynamic effect on PITC picture*/
 
+#about{
+  text-align:center;
+  font-weight:bold;
+  font-size: 1.2em;
+
+}
 @-webkit-keyframes pulse {
     from {-webkit-transform: scale(1);}
-    to {-webkit-transform: scale(1.08);}
+    to {-webkit-transform: scale(1.09);}
 }
 
 .pitc:hover { /*Dallin's */
