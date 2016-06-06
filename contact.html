@@ -135,23 +135,41 @@
 					</div>
 					<div class="questions form-group">
 						<div class='input-group date' id='datetimepicker1'>
-							<input type='text' class="form-control" placeholder="SCHEDULE A PHONE CALL"/>
+							<input type='text' class="form-control" placeholder="SCHEDULE A PHONE CALL" id="phone_input"/>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 								</span>
+							<span class="input-group-addon">
+								<!--<select id="calDropDown1" required>
+									<option value="other">OTHER</option>
+									<option value="diff_time">NONE OF THESE TIMES WORK WELL (ENTER YOUR PREFERRED TIME TO THE LEFT)</option>
+									<option value="no_call">I WOULD PREFER TO NOT SCHEDULE A PHONE CALL AT THIS TIME</option>
+								</select>-->
+								<div class="btn-group">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">OTHER
+									<!--<span class="caret"></span>-->
+									</button>
+									<ul class="dropdown-menu" role="menu" id="phone_drop">
+										<li><a href="#">NONE OF THESE TIMES WORK WELL (ENTER YOUR PREFERRED TIME TO THE LEFT)</a></li>
+										<li><a href="#">I WOULD PREFER TO NOT SCHEDULE A PHONE CALL AT THIS TIME</a></li>
+									</ul>
+								</div>
+							</span>
 						</div>
 					</div>
-					<!--<script type="text/javascript">
-						$(function () {
-							$('datetimepicker1').datetimepicker();
-							});
-					</script>-->
 					<div class="questions form-group">
 						<div class='input-group date' id='datetimepicker2'>
 							<input type='text' class="form-control" placeholder="SCHEDULE A TOUR"/>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 								</span>
+							<span class="input-group-addon">
+								<select id="calDropDown1" required>
+									<option value="other">OTHER</option>
+									<option value="diff_time">NONE OF THESE TIMES WORK WELL (ENTER YOUR PREFERRED TIME TO THE LEFT)</option>
+									<option value="no_tour">I WOULD PREFER TO NOT SCHEDULE A TOUR AT THIS TIME</option>
+								</select>
+							</span>
 						</div>
 					</div>
 					<div class="text-center"><button type="submit" id="submitButton" class="btn btn-default">SUBMIT</button>
@@ -251,11 +269,7 @@ _atrk_opts = { atrk_acct:"jT90m1a8FRh2cN", domain:"learncodinganywhere.com",dyna
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/npm.js"></script>
-    <script src="js/bootstrap-datetimepicker.js"></script>
     <script src="js/bootstrap-datetimepicker.min.js"></script>
-    <script src="js/moment.js"></script>
-    <script src="js/collapse.js"></script>
-    <script src="js/transition.js"></script>
 	<script src="js/contact.js" type="text/javascript">
 	</script>
 </body>
