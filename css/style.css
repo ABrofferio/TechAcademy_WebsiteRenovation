@@ -256,11 +256,6 @@ h2, h4{
 
 }
 
-
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
  #contactForm  #AddPhone {
     height: 50px !important;
     border: 5px solid rgba(45, 45, 48,1) !important;
@@ -281,7 +276,7 @@ h2, h4{
     color: rgba(45, 45, 48,1) !important;
     letter-spacing: 1px !important;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
 	width: 80% !important;
 	margin-left: 10% !important;
 	margin-right: 10% !important;
@@ -295,8 +290,8 @@ h2, h4{
     border: 5px solid rgba(45, 45, 48,1) !important;
     background: transparent !important;
     letter-spacing: 1px !important;
-    font-size: 60%;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: normal;
     color: grey;
 	width: 80% !important;
 	margin-left: 10% !important;
@@ -326,8 +321,8 @@ h2, h4{
     border: 5px solid rgba(45, 45, 48,1) !important;
     background: transparent !important;
     letter-spacing: 1px !important;
-    font-size: 60%;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: normal;
     color: grey;
 	width: 80% !important;
 	margin-left: 10% !important;
@@ -352,7 +347,7 @@ h2, h4{
 	margin-top: 10px !important;
  }
  #contactForm #datetimepicker1 {
-    height: 100px !important;
+    height: 50px !important;
     font-size: 14px;
     border: 5px solid rgba(45, 45, 48,1) !important;
     background: transparent !important;
@@ -365,7 +360,7 @@ h2, h4{
 	margin-top: 10px !important;
  }
  
-   #contactForm .glyphicon {
+ #contactForm .glyphicon {
     color: rgba(45, 45, 48,1) !important;
  }
   #contactForm #datetimepicker2 {

@@ -30,6 +30,9 @@ $(document).ready(function() {
 			$(function() {
 			$('#datetimepicker2').datetimepicker('setDaysOfWeekDisabled', [0,6]);
 			});
+			$('#datetimepicker1').datetimepicker({
+				minuteStep: 30,
+				showMeridian: true});
 		});
 		
 					
