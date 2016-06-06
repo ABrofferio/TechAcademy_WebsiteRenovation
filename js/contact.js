@@ -32,7 +32,9 @@ $(document).ready(function() {
 			});
 			$('#datetimepicker1').datetimepicker({
 				minuteStep: 30,
-				showMeridian: true});
+				showMeridian: true,
+				disabledHours: [0, 1, 2, 3, 4, 5, 6, 7]
+			});
 		});
 		
 					
