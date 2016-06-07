@@ -767,6 +767,7 @@ blockquote {
     text-decoration: none;
     color: inherit;
     text-align: justify;
+    font-size: 16px;
 }
 .sixty { /*Dallin*/
     font-size: 60%;
