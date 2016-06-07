@@ -1,0 +1,38 @@
+.testimonials-slider {
+    position: relative;
+    min-height: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials-slider .btn-testimonial-read-more {
+    position: absolute;
+    bottom: 0;
+}
+/* TODO: makalii(6/7/2016): Works great on larger screens, but on mobile the text is too small as it is based on width, but doesn't scale down as I'd expect it to. Need to target and set font-size for mobile devices. */
+.testimonials-slider .testimonials-text {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.5em;
+    transition:all .8s;
+    -moz-transition:all .8s; /* FIREFOX */
+    -webkit-transition:all .8s; /* SAFARI and CHROME */
+    -o-transition:all .8s; /* OPERA */
+
+    transform: scale(0.80);
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+}
+
+.testimonials-slider .testimonials-text:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+}

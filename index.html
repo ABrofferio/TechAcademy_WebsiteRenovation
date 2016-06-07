@@ -33,7 +33,11 @@
 
     <!--  Custom CSS  -->
     <link href="css/style.css" rel="stylesheet"/>
-    
+
+    <!--makalii: I kept getting lost in the main css file above, so I created new files for me to work with for now-->
+    <link href="css/index-overview.css" rel="stylesheet"/>
+    <link href="css/index-testimonials-slideshow.css" rel="stylesheet"/>
+
     <link rel="canonical" href="learncodinganywhere.com"/>
 
 </head>
@@ -118,27 +122,39 @@
             </div>
             <div class="row"><!-- ROW 2 -->
 
-                <div class="col-lg-6  newTiledInfoWhite slideanim textBased" id="col1row2">
-                    <h2><a href="bootcamp.html" class="noDecor"><strong>The Tech Academy</strong>
+                <div class="col-lg-12  newTiledInfoWhite slideanim textBased" id="col1row2">
+                    <div class="overview-content">
+                    <h2 id="overview-header"><a href="bootcamp.html" class="noDecor"><strong>The Tech Academy</strong>
                     <br/>An online code bootcamp</a></h2>
-                    <p class="row3tile2">The Tech Academy is a licensed career school located in Portland, Oregon where students learn to code. During their coding classes on the Software Developer Boot Camp, students study computer programming and web development. The curriculum is available online, so the course can be studied from anywhere in the world. Students can take the program in <a href="tour.html">classrooms located in downtown Portland</a> or online from anywhere on the planet – The Tech Academy has <a href="tour.html">local students in Portland</a> and remote students that study from home across the United States, in Europe, etc.</p>
-                    <p class="row3tile2">What sets The Tech Academy apart from other code schools is their thorough curriculum and <a href="testimonials.html">high success rate of graduates</a>. The Tech Academy students learn many programming languages and skills during the <a href="bootcamp.html"> coding bootcamp, including: computer science fundamentals, HTML, CSS, Version/Source Control, Visual Studio, Databases, SQL, JavaScript, Python, C#, ASP.NET, Agile/Scrum project management and more.</a></p>
-                    <p class="row3tile2">On The Tech Academy’s programming bootcamp, students learn coding through real-world, hands-on software development training. Graduates are well-rounded, full-stack, junior developers that can code on the front-end and back-end. Not only can they create dynamic websites, but are trained in application development as well. Optional courses in mobile development, PHP, DevOps, MVC and other classes exist as well. The Tech Academy is well reviewd on many sites including <a href="https://www.coursereport.com/">Course Report</a> and <a href="https://www.switchup.org/">SwitchUp</a></p>
-                    <p class="row3tile2">Their coding school works with students to get them on study schedules that fit with their life. Students watch online coding tutorials and programming videos, read development books and articles, and partake in real world code exercises and challenges. By the end of this code academy, students have a strong resume and portfolio that they can use to get hired as junior level software developers.</p>
-                    
+                    <p>The Tech Academy is a licensed career school located in Portland, Oregon where students learn to code. During their coding classes on the Software Developer Boot Camp, students study computer programming and web development. The curriculum is available online, so the course can be studied from anywhere in the world. Students can take the program in <a href="tour.html">classrooms located in downtown Portland</a> or online from anywhere on the planet – The Tech Academy has <a href="tour.html">local students in Portland</a> and remote students that study from home across the United States, in Europe, etc.</p>
+                    <p>What sets The Tech Academy apart from other code schools is their thorough curriculum and <a href="testimonials.html">high success rate of graduates</a>. The Tech Academy students learn many programming languages and skills during the <a href="bootcamp.html"> coding bootcamp, including: computer science fundamentals, HTML, CSS, Version/Source Control, Visual Studio, Databases, SQL, JavaScript, Python, C#, ASP.NET, Agile/Scrum project management and more.</a></p>
+                    <p>On The Tech Academy’s programming bootcamp, students learn coding through real-world, hands-on software development training. Graduates are well-rounded, full-stack, junior developers that can code on the front-end and back-end. Not only can they create dynamic websites, but are trained in application development as well. Optional courses in mobile development, PHP, DevOps, MVC and other classes exist as well. The Tech Academy is well reviewd on many sites including <a href="https://www.coursereport.com/">Course Report</a> and <a href="https://www.switchup.org/">SwitchUp</a></p>
+                    <p>Their coding school works with students to get them on study schedules that fit with their life. Students watch online coding tutorials and programming videos, read development books and articles, and partake in real world code exercises and challenges. By the end of this code academy, students have a strong resume and portfolio that they can use to get hired as junior level software developers.</p>
+</div>
                     <a class="btn btn-lg btn-primary noBottom" href="contact.html" role="button">Contact Us Now »</a>
                 </div>
             </div>
 
             <div class="row"><!--  Start Row 3  -->
 
-                <div class="col-lg-6  newTiledInfoBlack slideanim textBased" id="col1row3">
-                   <p><strong>WHAT OUR STUDENTS SAY:</strong></p>
-                    <p><a href="testimonials.html#nick" class="row3tile2">"I cannot recommend The Tech Academy enough."</a></p>
-                    <p><a href="testimonials.html#nick" class="row3tile2">“Just a few weeks ago I was a transplant in Portland, with no connections, no job, no plans, nothing. Now, I've got a $60,000 a year job with full benefits, working at an amazing company, in a beautiful office in downtown Portland."</a></p>
-                    <p><a href="testimonials.html#neil" class="row3tile2">"Studying at The Tech Academy was a great experience, and was a big key in reaching my goals of learning a lot about software development, understanding programming and landing a job at an awesome software company."</a></p>
-                    <p><a href="testimonials.html#neil" class="row3tile2">“The curriculum was very comprehensive and wasn't limited to just learning a handful of simpler web-based languages."</a></p>
-                    <p><a class="btn btn-lg btn-primary onlyDisplayOnMobile" href="testimonials.html" role="button">Read More »</a></p>
+                <!--<div class="col-lg-6 testimonials-slider newTiledInfoBlack" id="col1row3">-->
+                <div class="col-lg-6 newTiledInfoBlack slideanim textBased" id="col1row3">
+                    <p><strong>WHAT OUR STUDENTS SAY:</strong></p>
+                    <div class="testimonials-slider">
+                        <div id="testimonials-text-1" class="bullets testimonials-text"><a href="the-tech-academy-testimonials-successes-and-reviews.html#testimonials-nick-j">"I cannot recommend The Tech Academy enough."</a></div>
+                        <div id="testimonials-text-2" class="bullets testimonials-text"><a href="the-tech-academy-testimonials-successes-and-reviews.html#testimonials-neil-t">“The curriculum was very comprehensive and wasn't limited to just learning a handful of simpler web-based languages."</a></div>
+
+                        <div id="testimonials-text-3" class="bullets testimonials-text"><a href="the-tech-academy-testimonials-successes-and-reviews.html#testimonials-johnny-r">"I had 7 interviews in 2 weeks and 5 offers came out of them. The only reason this happened is because I had the knowledge and the confidence to continually 'knock the ball out of the park.'"</a></div>
+
+                        <div id="testimonials-text-4" class="bullets testimonials-text"><a href="the-tech-academy-testimonials-successes-and-reviews.html#testimonials-robert-a">“Where the landscape of learning software is broad and meandering, The Tech Academy has put together a concise efficient program that guides students to an impressive level of functioning right out of the gate.”</a></div>
+                        <div id="testimonials-text-5" class="bullets testimonials-text"><a href="the-tech-academy-testimonials-successes-and-reviews.html#testimonials-matt-a">“I was able to secure a job in software development before graduating.”</a></div>
+                        <div id="testimonials-text-6" class="bullets testimonials-text"><a href="the-tech-academy-testimonials-successes-and-reviews.html#testimonials-daniel-h">“I looked at the offerings of several boot camps in the area, and found that the Tech Academy offered the strongest curriculum towards a path in software development.”</a></div>
+                        <!--these last two entries are not from the block quotes. they are ready if needed tho, just need to add the ids of the next two to the function in index.js -->
+                        <!--<div id="testimonials-text-7"><p><a href="testimonials.html#testimonials-nick-j">“Just a few weeks ago I was a transplant in Portland, with no connections, no job, no plans, nothing. Now, I've got a $60,000 a year job with full benefits, working at an amazing company, in a beautiful office in downtown Portland."</a></p></div>-->
+                        <!--<div id="testimonials-text-8"><p><a href="testimonials.html#testimonials-neil-t">"Studying at The Tech Academy was a great experience, and was a big key in reaching my goals of learning a lot about software development, understanding programming and landing a job at an awesome software company."</a></p></div>-->
+
+                    </div>
+                    <p><a class="btn btn-lg btn-primary onlyDisplayOnMobile btn-testimonial-read-more" href="the-tech-academy-testimonials-successes-and-reviews.html" role="button">Read More »</a></p>
                 </div>
 
                 <div class="col-lg-6 col-xs-12 newTiledInfoWhite slideanim" id="col2row3">
@@ -153,28 +169,28 @@
                         </ol>
                         <!--  Wrapper for slides  -->
                         <div class="carousel-inner" role="listbox">
-                            <div class="item active carousel-image"">
+                            <div class="item active carousel-image">
                                 <img class="tales" itemprop="image" src="images/Homepage_Background_Picture_1.jpg" alt="..."/>
                                 <div class="carousel-caption">
                                     <h1>95% Job Placement Rate!</h1>
                                     <p>To date, all graduates have gotten employed.</p>
                                 </div>
                             </div>
-                            <div class="item carousel-image"">
+                            <div class="item carousel-image">
                                 <img class="tales" src="images/Homepage_Background_Picture_2.jpg" alt="..."/>
                                 <div class="carousel-caption">
                                     <h1>Self-Paced training with Instructors available at all times to help.</h1>
                                     <p>Students move at their own speed.</p>
                                 </div>
                             </div>
-                            <div class="item carousel-image"">
+                            <div class="item carousel-image">
                                 <img class="tales" src="images/Homepage_Background_Picture_3.jpg" alt="..."/>
                                 <div class="carousel-caption">
                                     <h1>The Tech Academy has a comprehensive curriculum.</h1>
                                     <p>Students learn over <em>seven</em> in-demand programming languages.</p>
                                 </div>
                             </div>
-                            <div class="item carousel-image"">
+                            <div class="item carousel-image">
                                 <img class="tales" src="images/Homepage_Background_Picture_4.jpg" alt="..."/>
                                 <div class="carousel-caption">
                                     <h1>Open Enrollment</h1>
@@ -338,14 +354,12 @@ _atrk_opts = { atrk_acct:"jT90m1a8FRh2cN", domain:"learncodinganywhere.com",dyna
 </script>
 <noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=jT90m1a8FRh2cN" class="noscript" height="1" width="1" alt="" /></noscript>
 <!-- End Alexa Certify Javascript -->  
- 
-<script></script>
 
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/npm.js"></script>
-    <script type="text/javascript" src="js/index.js">
-        </script>
+    <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
 Status API Training Shop Blog About

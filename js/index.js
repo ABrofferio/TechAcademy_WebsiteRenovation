@@ -1,5 +1,37 @@
 $(document).ready(function () {
-
+        
+            /* TODO: makalii(6/7/16) each testimonial text needs, in turn, slide in from the right, and slight to the left Currently the testimonial text just fades in and out */
+            // Testimonials Tile
+            $(function () {
+                var intervalsInSeconds = 6;
+                var numberOfTestimonials = 6;
+                var divs = $('#testimonials-text-1, #testimonials-text-2, #testimonials-text-3, #testimonials-text-4, #testimonials-text-5, #testimonials-text-6');
+        
+                $(".testimonials-slider").css("height: 600px;");
+                var left = divs.offset().left;
+        
+                divs.hide();
+        
+                setInterval(function () {
+                    showDiv();
+                }, intervalsInSeconds * 1000);
+        
+                var currentDiv = 0;
+                function showDiv () {
+                    divs.hide().animate({
+                        opacity: 0,
+                        // paddingLeft: '-=80'
+                    });
+                    divs.filter(function (index) { return index == currentDiv % numberOfTestimonials; }) // filter selects the next dive
+                        .show().animate({
+                        opacity: 1.0,
+                        // paddingLeft: '+=80'
+                    });
+                    currentDiv++;
+                };
+        
+            })
+    
             function waitThenDoSomething(waitTimeInMS, myAction) {
                 setTimeout(function () {
                     if (myAction == "displayPopup") {

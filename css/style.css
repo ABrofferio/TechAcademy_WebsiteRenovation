@@ -1190,6 +1190,11 @@ a.btn-lg:active
    -o-transition: width 0.3s; /* Opera */
 }
 
+.bullets a{
+    color: white;
+    text-decoration: none;
+}
+
 
 
 @keyframes slide {
