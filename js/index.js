@@ -11,7 +11,7 @@ $(document).ready(function () {
                 var divs = $('#testimonials-text-1, #testimonials-text-2, #testimonials-text-3, #testimonials-text-4, #testimonials-text-5, #testimonials-text-6');
                 divs.hide();
 
-                setInterval(function () {
+                setTimeout(function () {
                     showDiv();
                 }, LoopIntervalsInMilliseconds);
 
@@ -42,8 +42,10 @@ $(document).ready(function () {
                     });
                     currentDivIndex++;
 
-                    $('.testimonials-slider').animate({
+                    $('.testimonials-slider').delay(5000).animate({
                         left: '+=1800'
+                    }, function(){
+                        setTimeout(showDiv(), 3000)
                     });
 
                 }
