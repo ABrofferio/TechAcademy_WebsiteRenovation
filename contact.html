@@ -98,13 +98,13 @@
 						</div>
 					</div>
 					<div class="questions form-group">
-						<div id="selectBox"><textarea id="Address" type="text" name="Address" placeholder="ENTER YOUR ADDRESS" class="MessagePopUp"></textarea>
+						<div id="selectBox"><textarea id="Address" type="text" name="Address" placeholder="ENTER YOUR ADDRESS" class="MessagePopUp" ></textarea>
 						</div>
 					</div>
 					
 					<div class="questions form-group">
 						<select id="studyDropDown">
-							<option value="default">HOW WILL YOU BE STUDYING OUR PROGRAM?</option>
+							<option value="default">HOW WILL YOU STUDY THE PROGRAM</option>
 							<option value="online">ONLINE STUDY (REMOTE, FROM HOME, INTERNATIONAL)</option>
 							<option value="in_person">IN-PERSON STUDY (STUDY AT OUR SCHOOL IN PORTLAND)</option>
 							<option value="not_studying">I AM NOT CONTACTING YOU TO STUDY THE PROGRAM</option>
@@ -116,7 +116,7 @@
 					</div>
 					<div class="questions form-group">
 						<select id="hearDropDown" required>
-							<option value="default">HOW DID YOU HEAR ABOUT THE TECH ACADEMY?</option>
+							<option value="default">HOW DID YOU HEAR ABOUT US?</option>
 							<option value="radio">RADIO</option>
 							<option value="online_search">ONLINE SEARCH</option>
 							<option value="google">GOOGLE</option>
@@ -130,12 +130,13 @@
 						</select>
 					</div>
 					<div class="questions form-group">
-						<div id="selectBox"><input id="otherchoice" type="text" name="otherchoice" placeholder="How did you hear about us?" class="sixty"/>
+						<div id="selectBox"><input id="otherchoice" type="text" name="otherchoice" placeholder="HOW DID YOU HEAR ABOUT US?" class="sixty"/>
 						</div>
 					</div>
 					<div class="questions form-group">
-						<div class='input-group date' id='datetimepicker1'>
-							<input type='text' class="form-control" name="phonecall" placeholder="SCHEDULE A PHONE CALL (Open Hours: 10am -4:30pm PST)" id="phone_input"/>
+						<div class='input-group date' id='datetimepicker1' required>
+							<div id="hidePhone"><input type='text' class="form-control" name="phonecall" placeholder="SCHEDULE CALL: 10am -4:30pm PST)" id="phone_input"/></div>
+							<div id="origPhone"><input type='text' class="form-control" name="phonecall" placeholder="SCHEDULE A PHONE CALL (Open Hours: 10am -4:30pm PST)" id="phone_input"/></div>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 								</span>
@@ -148,8 +149,9 @@
 						</div>
 					</div>
 					<div class="questions form-group">
-						<div class='input-group date' id='datetimepicker2'>
-							<input type='text' class="form-control" placeholder="SCHEDULE A TOUR (Open Hours: 10am -4:30pm PST)" id="tour_input"/>
+						<div class='input-group date' id='datetimepicker2' required>
+							<div id="hideTour"><input type='text' class="form-control" placeholder="SCHEDULE TOUR: 10am-4:30pm PST)" id="tour_input"/></div>
+							<div id="origTour"><input type='text' class="form-control" placeholder="SCHEDULE A TOUR (Open Hours: 10am -4:30pm PST)" id="tour_input"/></div>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 								</span>
@@ -173,8 +175,8 @@
         
 			<!-- Contact Info -->
 			<div class="col-lg-5 newTiledInfoBlack" id="contactInfo">
-				<a href="mailto:info@learncodinganywhere.com?subject=Tech Academy Website Correspondence"><i class="fa fa-envelope fa-3x slideanim"></i></a>
-				<p>info@learncodinganywhere.com</p>
+				<i class="fa fa-envelope fa-3x slideanim"></i>
+				<a href="mailto:info@learncodinganywhere.com?subject=Tech Academy Website Correspondence"><p>info@learncodinganywhere.com</p></a>
 				<br />
                 <br />
 				<i class="fa fa-phone fa-3x slideanim"></i>
@@ -219,7 +221,7 @@
 				<meta itemprop="addressCountry" content="USA"></p>
 			</div>
 			<div id="footEmail">
-                <p><a href="mailto:info@learncodinganywhere.com?subject=Tech Academy Website Correspondence"><i class="fa fa-envelope fa-lg slideanim"></i></a><span itemprop="email"> info@learncodinganywhere.com</span></p>
+                <p><i class="fa fa-envelope fa-lg slideanim"></i><a href="mailto:info@learncodinganywhere.com?subject=Tech Academy Website Correspondence"><span itemprop="email"> info@learncodinganywhere.com</span></a></p>
 			</div>
 			<div id="footPhone">
                 <p><i class="fa fa-phone fa-lg slideanim"></i><span itemprop="telephone"> 503.206.6915</span></p>

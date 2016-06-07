@@ -25,7 +25,7 @@ h2, h4{
 }
 
 #topList h2 {
-	font-size: 110%;
+	font-size: 21px;
 }
 /*Dallin's, transparency in navbar*/
 .navbar {
@@ -275,8 +275,8 @@ h2, h4{
     background: transparent !important;
     color: rgba(45, 45, 48,1) !important;
     letter-spacing: 1px !important;
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 60% !important;
+    font-weight: bold;
 	width: 80% !important;
 	margin-left: 10% !important;
 	margin-right: 10% !important;
@@ -290,8 +290,8 @@ h2, h4{
     border: 5px solid rgba(45, 45, 48,1) !important;
     background: transparent !important;
     letter-spacing: 1px !important;
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 65% !important;
+    font-weight: bold;
     color: grey;
 	width: 80% !important;
 	margin-left: 10% !important;
@@ -301,9 +301,21 @@ h2, h4{
 
 }
 
+ #contactForm  #hideStudyOp {
+    display: none;
+    visibility: hidden;
+    color: red;
+}
+
+ #contactForm  #hideHearOp {
+    display: none;
+    visibility: hidden;
+    color: green;
+}
+
  #contactForm  #Message {
     height: 200px !important;
-    font-size: 14px;
+    font-size: 65% !important;
     border: 5px solid rgba(45, 45, 48,1) !important;
     background: transparent !important;
     color: rgba(45, 45, 48,1) !important;
@@ -321,7 +333,7 @@ h2, h4{
     border: 5px solid rgba(45, 45, 48,1) !important;
     background: transparent !important;
     letter-spacing: 1px !important;
-    font-size: 14px;
+    font-size: 65% !important;
     font-weight: normal;
     color: grey;
 	width: 80% !important;
@@ -338,7 +350,7 @@ h2, h4{
     background: transparent !important;
     color: rgba(45, 45, 48,1) !important;
     letter-spacing: 1px !important;
-    font-size: 14px;
+    /*font-size: 14px;*/
     font-weight: bold;
 	width: 80% !important;
 	margin-left: 10% !important;
@@ -348,7 +360,8 @@ h2, h4{
  }
  #contactForm #datetimepicker1 {
     height: 50px !important;
-    font-size: 14px;
+    font-size: 65% !important;
+    font-weight: bold;
     border: 5px solid rgba(45, 45, 48,1) !important;
     background: transparent !important;
     color: rgba(45, 45, 48,1) !important;
@@ -358,6 +371,11 @@ h2, h4{
 	margin-right: 10% !important;
 	margin-top: 10px !important;
  }
+   #contactForm  #hidePhone {
+    display: none;
+    visibility: hidden;
+    color: red;
+}
  
   #contactForm #phone_input {
   height: 50px !important;
@@ -365,17 +383,17 @@ h2, h4{
  }
  
  #contactForm .btn-group {
-	width: 72px !important;
+	width: 60px !important;
 	padding: 0px;
 	margin-left: 10% !important;
 	margin-right: 10% !important;
  }
  
  #contactForm #noButton {
- 	font-size: 14px;
+ 	font-size: 65% !important;
  	letter-spacing: 1px !important;
 	font-weight: bold;
-	float: right;
+	/*float: right;*/
 	padding: 3px;
  }
  
@@ -391,6 +409,7 @@ h2, h4{
 
   #contactForm #datetimepicker2 {
     height: 50px !important;
+    font-weight: bold;
     border: 5px solid rgba(45, 45, 48,1) !important;
     background: transparent !important;
     color: rgba(45, 45, 48,1) !important;
@@ -400,6 +419,12 @@ h2, h4{
 	margin-right: 10% !important;
 	margin-top: 10px !important;
  }
+ 
+ #contactForm  #hideTour {
+    display: none;
+    visibility: hidden;
+    color: red;
+    	}
  
  #contactForm  #submitButton {
     height: 50px !important;
@@ -565,11 +590,11 @@ div.row p{  /*ADDED 2/9/16 TO GET SPACE BETWEEN THE SIDE OF TEXT AND GRID BOX BO
 }
 
 .carousel-caption > p{
-    font-size: 20px;
+    font-size: 60%;
 }
 
 .carousel-caption > h1{
-    font-size: 30px;
+    font-size: 80%;
 }
 
 .carousel-indicators li { visibility: hidden; }
@@ -979,9 +1004,22 @@ blockquote {
     .carousel-caption {
         top: 60%; /*PREVENTS TEXT IN THE CAROUSEL FROM GETTING CUTOFF*/
     }
-    .questions {
-        top: 60%; /*PREVENTS TEXT IN THE CAROUSEL FROM GETTING CUTOFF*/
-    }
+     #contactForm  #hidePhone {
+    display: block;
+    visibility: visible;
+}
+	#contactForm  #hideTour {
+    display: block;
+    visibility: visible;
+}
+     #contactForm  #origPhone {
+    display: none;
+    visibility: hidden;
+}
+	#contactForm  #origTour {
+    display: none;
+    visibility: hidden;
+}
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -989,9 +1027,22 @@ blockquote {
     .carousel-caption {
         top: 60%; /*PREVENTS TEXT IN THE CAROUSEL FROM GETTING CUTOFF*/
     }
-    .questions {
-        top: 60%; /*PREVENTS TEXT IN THE CAROUSEL FROM GETTING CUTOFF*/
-    }
+     #contactForm  #hidePhone {
+    display: block;
+    visibility: visible;
+}
+	#contactForm  #hideTour {
+    display: block;
+    visibility: visible;
+}
+     #contactForm  #origPhone {
+    display: none;
+    visibility: hidden;
+}
+	#contactForm  #origTour {
+    display: none;
+    visibility: hidden;
+}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -1008,9 +1059,22 @@ blockquote {
         width:100%;
         max-height: 380px !important;
     }
-    .questions {
-        top: 50%; /*PREVENTS TEXT IN THE CAROUSEL FROM GETTING CUTOFF*/
-    }
+     #contactForm  #hidePhone {
+    display: block;
+    visibility: visible;
+}
+	#contactForm  #hideTour {
+    display: block;
+    visibility: visible;
+}
+     #contactForm  #origPhone {
+    display: none;
+    visibility: hidden;
+}
+	#contactForm  #origTour {
+    display: none;
+    visibility: hidden;
+}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -1018,9 +1082,22 @@ blockquote {
     .carousel-caption {
         top: 40%; /*PREVENTS TEXT IN THE CAROUSEL FROM GETTING CUTOFF*/
     }
-    .questions {
-        top: 40%; /*PREVENTS TEXT IN THE CAROUSEL FROM GETTING CUTOFF*/
-    }
+     #contactForm  #hidePhone {
+    display: block;
+    visibility: visible;
+}
+	#contactForm  #hideTour {
+    display: block;
+    visibility: visible;
+}
+     #contactForm  #origPhone {
+    display: none;
+    visibility: hidden;
+}
+	#contactForm  #origTour {
+    display: none;
+    visibility: hidden;
+}
 }
 	
 	
