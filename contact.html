@@ -135,40 +135,29 @@
 					</div>
 					<div class="questions form-group">
 						<div class='input-group date' id='datetimepicker1'>
-							<input type='text' class="form-control" placeholder="SCHEDULE A PHONE CALL" id="phone_input"/>
+							<input type='text' class="form-control" name="phonecall" placeholder="SCHEDULE A PHONE CALL (Open Hours: 10am -4:30pm PST)" id="phone_input"/>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 								</span>
 							<span class="input-group-addon">
-								<!--<select id="calDropDown1" required>
-									<option value="other">OTHER</option>
-									<option value="diff_time">NONE OF THESE TIMES WORK WELL (ENTER YOUR PREFERRED TIME TO THE LEFT)</option>
-									<option value="no_call">I WOULD PREFER TO NOT SCHEDULE A PHONE CALL AT THIS TIME</option>
-								</select>-->
 								<div class="btn-group">
-									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">OTHER
-									<!--<span class="caret"></span>-->
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="noButton">NOT NOW
 									</button>
-									<ul class="dropdown-menu" role="menu" id="phone_drop">
-										<li><a href="#">NONE OF THESE TIMES WORK WELL (ENTER YOUR PREFERRED TIME TO THE LEFT)</a></li>
-										<li><a href="#">I WOULD PREFER TO NOT SCHEDULE A PHONE CALL AT THIS TIME</a></li>
-									</ul>
 								</div>
 							</span>
 						</div>
 					</div>
 					<div class="questions form-group">
 						<div class='input-group date' id='datetimepicker2'>
-							<input type='text' class="form-control" placeholder="SCHEDULE A TOUR"/>
+							<input type='text' class="form-control" placeholder="SCHEDULE A TOUR (Open Hours: 10am -4:30pm PST)" id="tour_input"/>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 								</span>
 							<span class="input-group-addon">
-								<select id="calDropDown1" required>
-									<option value="other">OTHER</option>
-									<option value="diff_time">NONE OF THESE TIMES WORK WELL (ENTER YOUR PREFERRED TIME TO THE LEFT)</option>
-									<option value="no_tour">I WOULD PREFER TO NOT SCHEDULE A TOUR AT THIS TIME</option>
-								</select>
+								<div class="btn-group">
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="noButton">NOT NOW
+									</button>
+								</div>
 							</span>
 						</div>
 					</div>

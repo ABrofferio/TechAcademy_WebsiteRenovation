@@ -303,7 +303,7 @@ h2, h4{
 
  #contactForm  #Message {
     height: 200px !important;
-	font-size: 14px;
+    font-size: 14px;
     border: 5px solid rgba(45, 45, 48,1) !important;
     background: transparent !important;
     color: rgba(45, 45, 48,1) !important;
@@ -356,8 +356,7 @@ h2, h4{
 	width: 80% !important;
 	margin-left: 10% !important;
 	margin-right: 10% !important;
-	/*padding: 10px !important;*/
-	margin-top: 10px !important;*/
+	margin-top: 10px !important;
  }
  
   #contactForm #phone_input {
@@ -365,17 +364,31 @@ h2, h4{
   letter-spacing: 1px !important;
  }
  
- #contactForm #phone_drop {
+ #contactForm .btn-group {
+	width: 72px !important;
+	padding: 0px;
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+ }
+ 
+ #contactForm #noButton {
  	font-size: 14px;
  	letter-spacing: 1px !important;
-	padding: 10px !important;
-	margin-top: 10px !important;
 	font-weight: bold;
+	float: right;
+	padding: 3px;
  }
  
  #contactForm .glyphicon {
     color: rgba(45, 45, 48,1) !important;
+    
  }
+
+ #contactForm #tour_input {
+  height: 50px !important;
+  letter-spacing: 1px !important;
+ }
+
   #contactForm #datetimepicker2 {
     height: 50px !important;
     border: 5px solid rgba(45, 45, 48,1) !important;
@@ -385,7 +398,6 @@ h2, h4{
 	width: 80% !important;
 	margin-left: 10% !important;
 	margin-right: 10% !important;
-	padding: 10px !important;
 	margin-top: 10px !important;
  }
  

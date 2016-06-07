@@ -33,7 +33,8 @@ $(document).ready(function() {
 			$('#datetimepicker1').datetimepicker({
 				minuteStep: 30,
 				showMeridian: true,
-				disabledHours: [0, 1, 2, 3, 4, 5, 6, 7]
+				disabledHours: [10, 11, 12, 13, 14, 15, 16]
+				/*minView: [10]*/
 			});
 		});
 		
