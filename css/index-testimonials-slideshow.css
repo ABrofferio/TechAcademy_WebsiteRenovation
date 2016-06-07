@@ -1,4 +1,6 @@
 .testimonials-slider {
+
+    overflow:hidden;
     position: relative;
     min-height: 300px;
     max-height: 300px;
@@ -14,6 +16,7 @@
 }
 /* TODO: makalii(6/7/2016): Works great on larger screens, but on mobile the text is too small as it is based on width, but doesn't scale down as I'd expect it to. Need to target and set font-size for mobile devices. */
 .testimonials-slider .testimonials-text {
+
     padding-left: 1em;
     padding-right: 1em;
     font-size: 1.5em;
