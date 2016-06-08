@@ -221,35 +221,95 @@
                 <div class="modal-body-contact" id="contactForm">
                     <form method="POST" action="http://plus.allforms.mailjol.net/u/b1749119.php">
 
-                        <div class="questions form-group">
-                            <div id="selectBox">
-                                <input id="Name" class="sixty" type="text" name="Name" placeholder="ENTER YOUR NAME" required />
-                            </div>
-                        </div>
-                        <div class="questions form-group">
-                            <div id="selectBox">
-                                <input id="Email" class="sixty" type="text" name="Email" placeholder="ENTER YOUR EMAIL you@yourdomain.com" required />
-                            </div>
-                        </div>
-                        <div class="questions form-group">
-                            <div id="selectBox">
-                                <input id="Phone" class="sixty" type="text" name="Phone" placeholder="ENTER YOUR PHONE NUMBER" required />
-                            </div>
-                        </div>
-                        <div class="questions form-group">
-                            <div id="selectBox" class="questions"><textarea id="Message" name="Message" placeholder="ENTER YOUR MESSAGE" class="MessagePopUp" required></textarea>
-                            </div>
-                        </div>
-                        <div class="questions form-group">
-                            <div id="selectBox" class="questions">
-                                <input id="Ad" class="sixty" name="ad" placeholder="HOW DID YOU HEAR ABOUT US?" required />
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" id="submitButton" class="btn btn-default">SUBMIT</button>
-                            <p></p>
-                        </div>
-                    </form>
+					<div class="questions form-group">
+						<div id="selectBox"><input id="Name" type="text" name="Name" placeholder="ENTER YOUR NAME" class="sixty" required />
+						</div>
+					</div>
+					<div class="questions form-group">
+						<div id="selectBox"><input id="Email" type="text" name="Email" placeholder="  ENTER YOUR EMAIL: you@yourdomain.com" class="sixty" required />
+						</div>
+					</div>
+					<div class="questions form-group">
+						<div id="selectBox"><input id="Phone" type="text" name="Phone" placeholder="ENTER YOUR PHONE NUMBER" class="sixty" required />
+						</div>
+					</div>
+					<div class="questions form-group">
+						<div id="selectBox"><input id="AddPhone" type="text" name="AddPhone" placeholder="ENTER ADDITIONAL PHONE NUMBER" class="sixty"/>
+						</div>
+					</div>
+					<div class="questions form-group">
+						<div id="selectBox"><textarea id="Address" type="text" name="Address" placeholder="ENTER YOUR ADDRESS" class="MessagePopUp" ></textarea>
+						</div>
+					</div>
+					
+					<div class="questions form-group">
+						<select id="studyDropDown" name="studyDropDown" required>
+							<option value="default">HOW WILL YOU STUDY THE PROGRAM?</option>
+							<option value="online">ONLINE STUDY (REMOTE, FROM HOME, INTERNATIONAL)</option>
+							<option value="in_person">IN-PERSON STUDY (STUDY AT OUR SCHOOL IN PORTLAND)</option>
+							<option value="not_studying">I AM NOT CONTACTING YOU TO STUDY THE PROGRAM</option>
+						</select>
+					</div>
+					<div class="questions form-group">
+						<div id="selectBox" class="questions"><textarea id="Message" name="Message" placeholder="ENTER YOUR MESSAGE" class="MessagePopUp" ></textarea>
+						</div>
+					</div>
+					<div class="questions form-group">
+						<select id="hearDropDown" name="hearDropDown" required>
+							<option value="default">HOW DID YOU HEAR ABOUT US?</option>
+							<option value="radio">RADIO</option>
+							<option value="online_search">ONLINE SEARCH</option>
+							<option value="google">GOOGLE</option>
+							<option value="friend">FRIEND</option>
+							<option value="student">STUDENT</option>
+							<option value="graduate">GRADUATE</option>
+							<option value="course_report">COURSE REPORT</option>
+							<option value="switchup">SWITCHUP</option>
+							<option value="bootcamps.in">BOOTCAMPS.IN</option>
+							<option value="other">OTHER</option>
+						</select>
+					</div>
+					<div class="questions form-group">
+						<div id="selectBox"><input id="otherchoice" type="text" name="otherchoice" placeholder="HOW DID YOU HEAR ABOUT US?" class="sixty"/>
+						</div>
+					</div>
+					<div class="questions form-group">
+						<div class='input-group date' id='datetimepicker1' required>
+							<div id="hidePhone"><input type='text' name="datetimepicker1[]" class="form-control" name="phonecall" placeholder="SCHEDULE CALL: 10am -4:30pm PST)" id="phone_input1"/></div>
+							<div id="origPhone"><input type='text' name="datetimepicker1[]" class="form-control" name="phonecall" placeholder="SCHEDULE A PHONE CALL (Open Hours: 10am -4:30pm PST)" id="phone_input2"/></div>
+							<span class="input-group-addon">
+								<span class="glyphicon glyphicon-calendar"></span>
+								</span>
+							<span class="input-group-addon">
+								<div class="btn-group">
+									<button type="button" class="btn btn-default" id="noButton1">NOT NOW
+									</button>
+								</div>
+							</span>
+						</div>
+					</div>
+					<div class="questions form-group">
+						<div class='input-group date' id='datetimepicker2' required>
+							<div id="hideTour"><input type='text' name="datetimepicker2[]" class="form-control" name="tour" placeholder="SCHEDULE TOUR: 10am-4:30pm PST)" id="tour_input1"/></div>
+							<div id="origTour"><input type='text' name="datetimepicker2[]" class="form-control" name="tour" placeholder="SCHEDULE A TOUR (Open Hours: 10am -4:30pm PST)" id="tour_input2"/></div>
+							<span class="input-group-addon">
+								<span class="glyphicon glyphicon-calendar"></span>
+								</span>
+							<span class="input-group-addon">
+								<div class="btn-group">
+									<button type="button" class="btn btn-default"  id="noButton2">NOT NOW
+									</button>
+								</div>
+							</span>
+						</div>
+					</div>
+					<div class="text-center"><button type="submit" id="submitButton" class="btn btn-default">SUBMIT</button>
+                        <p></p>
+                        <br />
+                        <br />
+                        <br />
+					</div>
+				</form>
                 </div>
                 <div class="modal-footer">
                 </div>
