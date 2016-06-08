@@ -393,7 +393,12 @@ h2, h4{
     color: red;
 }
  
-  #contactForm #phone_input {
+  #contactForm #phone_input1 {
+  height: 50px !important;
+  letter-spacing: 1px !important;
+ }
+ 
+  #contactForm #phone_input2 {
   height: 50px !important;
   letter-spacing: 1px !important;
  }
@@ -405,7 +410,16 @@ h2, h4{
 	margin-right: 10% !important;
  }
  
- #contactForm #noButton {
+ #contactForm #noButton1 {
+ 	font-size: 65% !important;
+ 	letter-spacing: 1px !important;
+	font-weight: bold;
+	/*float: right;*/
+	padding: 3px;
+ }
+ 
+  
+ #contactForm #noButton2 {
  	font-size: 65% !important;
  	letter-spacing: 1px !important;
 	font-weight: bold;
@@ -418,7 +432,11 @@ h2, h4{
     
  }
 
- #contactForm #tour_input {
+ #contactForm #tour_input1 {
+  height: 50px !important;
+  letter-spacing: 1px !important;
+ }
+ #contactForm #tour_input2 {
   height: 50px !important;
   letter-spacing: 1px !important;
  }

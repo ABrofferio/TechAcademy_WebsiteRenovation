@@ -134,30 +134,30 @@
 						</div>
 					</div>
 					<div class="questions form-group">
-						<div class='input-group date' id='datetimepicker1' name="datetimepicker1"required>
-							<div id="hidePhone"><input type='text' class="form-control" name="phonecall" placeholder="SCHEDULE CALL: 10am -4:30pm PST)" id="phone_input"/></div>
-							<div id="origPhone"><input type='text' class="form-control" name="phonecall" placeholder="SCHEDULE A PHONE CALL (Open Hours: 10am -4:30pm PST)" id="phone_input"/></div>
+						<div class='input-group date' id='datetimepicker1' required>
+							<div id="hidePhone"><input type='text' name="datetimepicker1[]" class="form-control" name="phonecall" placeholder="SCHEDULE CALL: 10am -4:30pm PST)" id="phone_input1"/></div>
+							<div id="origPhone"><input type='text' name="datetimepicker1[]" class="form-control" name="phonecall" placeholder="SCHEDULE A PHONE CALL (Open Hours: 10am -4:30pm PST)" id="phone_input2"/></div>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 								</span>
 							<span class="input-group-addon">
 								<div class="btn-group">
-									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="noButton">NOT NOW
+									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="noButton1">NOT NOW
 									</button>
 								</div>
 							</span>
 						</div>
 					</div>
 					<div class="questions form-group">
-						<div class='input-group date' id='datetimepicker2' name="datetimepicker2" required>
-							<div id="hideTour"><input type='text' class="form-control" placeholder="SCHEDULE TOUR: 10am-4:30pm PST)" id="tour_input"/></div>
-							<div id="origTour"><input type='text' class="form-control" placeholder="SCHEDULE A TOUR (Open Hours: 10am -4:30pm PST)" id="tour_input"/></div>
+						<div class='input-group date' id='datetimepicker2' required>
+							<div id="hideTour"><input type='text' name="datetimepicker2[]" class="form-control" placeholder="SCHEDULE TOUR: 10am-4:30pm PST)" id="tour_input1"/></div>
+							<div id="origTour"><input type='text' name="datetimepicker2[]" class="form-control" placeholder="SCHEDULE A TOUR (Open Hours: 10am -4:30pm PST)" id="tour_input2"/></div>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 								</span>
 							<span class="input-group-addon">
 								<div class="btn-group">
-									<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" id="noButton">NOT NOW
+									<button type="button" class="btn btn-default"  id="noButton2">NOT NOW
 									</button>
 								</div>
 							</span>
@@ -258,6 +258,7 @@ _atrk_opts = { atrk_acct:"jT90m1a8FRh2cN", domain:"learncodinganywhere.com",dyna
 <!-- End Alexa Certify Javascript -->  
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/npm.js"></script>
     <script src="js/bootstrap-datetimepicker.min.js"></script>

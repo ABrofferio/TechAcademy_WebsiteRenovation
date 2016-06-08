@@ -36,6 +36,14 @@ $(document).ready(function() {
 				disabledHours: [10, 11, 12, 13, 14, 15, 16]
 				/*minView: [10]*/
 			});
+			$("#noButton1").click(function() {
+					$("#phone_input1").val("NOT AT THIS TIME");
+					$("#phone_input2").val("NOT AT THIS TIME");
+			});
+			$("#noButton2").click(function() {
+					$("#tour_input1").val("NOT AT THIS TIME");
+					$("#tour_input2").val("NOT AT THIS TIME");
+			});
 		});
 		
 					
