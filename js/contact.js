@@ -33,8 +33,14 @@ $(document).ready(function() {
 			$('#datetimepicker1').datetimepicker({
 				minuteStep: 30,
 				showMeridian: true,
-				disabledHours: [10, 11, 12, 13, 14, 15, 16]
-				/*minView: [10]*/
+				/*couldn't get the below to work*/
+				enabledHours: [10, 11, 12, 13, 14, 15, 16]
+			});
+			$('#datetimepicker2').datetimepicker({
+				minuteStep: 30,
+				showMeridian: true,
+				/*couldn't get the below to work*/
+				enabledHours: [10, 11, 12, 13, 14, 15, 16]
 			});
 			$("#noButton1").click(function() {
 					$("#phone_input1").val("NOT AT THIS TIME");

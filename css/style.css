@@ -292,7 +292,7 @@ h2, h4{
     color: rgba(45, 45, 48,1) !important;
     letter-spacing: 1px !important;
     font-size: 60% !important;
-    font-weight: bold;
+    font-weight: normal;
 	width: 80% !important;
 	margin-left: 10% !important;
 	margin-right: 10% !important;
@@ -307,7 +307,7 @@ h2, h4{
     background: transparent !important;
     letter-spacing: 1px !important;
     font-size: 65% !important;
-    font-weight: bold;
+    font-weight: normal;
     color: grey;
 	width: 80% !important;
 	margin-left: 10% !important;
@@ -377,7 +377,7 @@ h2, h4{
  #contactForm #datetimepicker1 {
     height: 50px !important;
     font-size: 65% !important;
-    font-weight: bold;
+    font-weight: normal;
     border: 5px solid rgba(45, 45, 48,1) !important;
     background: transparent !important;
     color: rgba(45, 45, 48,1) !important;
@@ -443,7 +443,7 @@ h2, h4{
 
   #contactForm #datetimepicker2 {
     height: 50px !important;
-    font-weight: bold;
+    font-weight: normal;
     border: 5px solid rgba(45, 45, 48,1) !important;
     background: transparent !important;
     color: rgba(45, 45, 48,1) !important;
@@ -469,6 +469,17 @@ h2, h4{
 	padding: 10px !important;
 	margin-top: 10px !important;
 	font-weight: bold;
+}
+
+#contactInfo [class*="fa"] {
+	margin-top: 50px;
+}
+#contactInfo p {
+	margin-bottom: 50px;
+}
+
+#contactInfo p .bottom{
+	margin-top: 50px;
 }
  /* END CONTACT INFO PAGE_SPECIFIC CSS */
 
