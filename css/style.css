@@ -217,6 +217,9 @@ h2, h4{
  
  
  /* CONTACT INFO PAGE_SPECIFIC CSS */
+ #contactForm {
+ 	 margin-top: 10px;
+ }
  
   #contactForm  #Name {
     height: 50px !important;
@@ -229,7 +232,7 @@ h2, h4{
 	margin-right: 10% !important;
 	padding: 10px !important;
 	margin-top: 10px !important;
-	margin-bottom: 8px;
+	margin-bottom: 8px !important;
 
 }
  
@@ -474,14 +477,17 @@ h2, h4{
 }
 
 #contactInfo [class*="fa"] {
-	margin-top: 50px;
+	margin-top: 30px;
 }
 #contactInfo p {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 #contactInfo p .bottom{
-	margin-top: 50px;
+	margin-top: 30px;
+}
+#contactInfo {
+	margin-top: 10px;
 }
  /* END CONTACT INFO PAGE_SPECIFIC CSS */
 
