@@ -1,11 +1,13 @@
-@import url("resets-queries.css");  /*Section-0*/
+@import url("normalize.css");
+/*@import url("reset.css");*/
+@import url("queries.css");         /*Section-0*/
 @import url("typography.css");      /*Section-1*/
 @import url("colors.css");          /*Section-2*/
 @import url("layouts.css");         /*Section-3*/
 @import url("headers.css");         /*Section-4*/
 @import url("nav.css");             /*Section-5*/
-@import url("content.css");         /*Section-6*/
-@import url("media.css");           /*Section-7*/
+@import url("content.css");         /*Section-6: Code with effects, or complicated css goes here*/
+@import url("media.css");           /*Section-7: Code dealing with images, video, audio goes here*/
 @import url("footer.css");          /*Section-8*/
 /*The above imports will likely be the final structure of this sheet*/
 
@@ -21,7 +23,7 @@
 @import url("employers.css");
 @import url("contact.css");
 
-/* Makali'i(6/9/16) - The rest of the file is empty now. Any commented out imports above are also empty */
+/* Makali'i(6/9/16) - The rest of the file is empty now. Any commented out imports above are also empty. There are a lot of repeated code and properties, so my next task is to go through the first group and consolidate rules*/
 
 
 /*********************************************************
