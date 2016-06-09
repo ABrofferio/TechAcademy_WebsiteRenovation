@@ -56,14 +56,11 @@ $(document).ready(function () {
             function waitThenDoSomething(waitTimeInMS, myAction) {
                 setTimeout(function () {
                     if (myAction == "displayPopup") {
-                        $('#myModalPopUp').modal('show');
+                        $('#myModalPopUpContact').modal('show');
                     }
                 }, waitTimeInMS); //time in ms to wait before modal dialog box shows up.
             }
-            function showContactForm(myAction) {
-                $('#myModalPopUpContact').modal('show');
-                $('#myModalPopUp').modal('hide');
-            }
+    
             waitThenDoSomething(60000, "displayPopup"); //this function waits 60000milliseconds before displaying a popup.
             $("a").click(function () { window.onbeforeunload = dontGiveMePopup; }); //don't make popup appear just because user clicked our site's hyperlink.
             document.getElementById("yes-modal-btn").onclick = function () { showContactForm(0,"displayPopup") };//this shows the contact form when yes is clicked on first popUp
