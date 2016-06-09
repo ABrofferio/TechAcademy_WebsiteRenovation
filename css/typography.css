@@ -1,0 +1,128 @@
+
+.jumbotron h1 {
+    font-size: 2.1em;
+    font-family: 'Titillium Web', sans-serif;
+    /*font-style: none; *//* TODO: ??? Makalii*/
+}
+
+.jumbotron2 {
+    font-size: 2.1em;
+    font-family: 'Titillium Web', sans-serif;
+    /*font-style: none; *//* TODO: ??? Makalii*/
+}
+
+div.row div {
+    font-size: 1.1em;
+}
+
+#topList h2 {
+    font-size: 21px;
+}
+
+.carousel-caption > p{
+    font-size: 60%;
+}
+
+.carousel-caption > h1{
+    font-size: 80%;
+}
+
+.panel-body {
+    font-size: 1.3em;
+}
+
+footer .footer_nav {
+    font-size: .8em;
+}
+
+footer .footer_nav li  {
+    font-size: 1.2em;
+}
+
+footer .footer_nav a {
+    text-decoration:none;
+}
+
+
+blockquote {
+    font-style: italic;
+}
+
+.panel-title {
+    font-size: 1.3em;
+    font-weight: bold;
+
+}
+
+.panel-title:hover { /*Dallin's*/
+    text-decoration: none !important;
+}
+
+
+.panel-title a:enabled { /*Dallin's*/
+    text-decoration: none;
+}
+
+
+.lineThrough { /*Dallin*/
+    text-decoration: line-through;
+}
+
+.noDecor { /*Dallin*/
+    text-decoration: none;
+}
+
+
+.row3tile2 { /*Dallin*/
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sixty { /*Dallin*/
+    font-size: 55%;
+}
+
+
+.contactUs { /*Dallin*/
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+
+
+.textBased p:first-child {
+    font-size: 1.2em;
+}
+
+
+.textBased p:nth-child(2), .textBased p:nth-child(3), .textBased p:nth-child(4), .textBased p:nth-child(5){
+    font-size: 1em;
+
+}
+
+.textBased:first-child p:nth-child(2), .textBased:first-child p:nth-child(3), .textBased:first-child p:nth-child(4){
+    font-size: .94em;
+}
+
+
+
+/*Dallin's, the next two make about better spaced.*/
+.largerTxt p  {
+    font-size: 1.2em;
+}
+
+
+#first{
+    font-size: 1.2em;
+}
+
+/* Turns text bold when hover */
+#first:hover{
+    font-weight: bold;
+}
+
+#about{
+    font-weight:bold;
+    font-size: 1.2em;
+
+}

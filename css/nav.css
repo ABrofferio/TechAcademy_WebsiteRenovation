@@ -38,3 +38,28 @@
     font-weight: bold;
 }
 
+
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+.nav-justified {
+    background: #fff; /*BACKGROUND COLOR OF NAVBAR*/
+    box-shadow: 0;/* 10px 15px grey; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+ul.nav a:hover {
+    color: #777 !important; /*TEXT COLOR IN NAVBAR ON HOVER*/
+    background-color:  #fff; /*BACKGROUND COLOR OF SELECTION RECTANGLE*/
+}
+
+.nav-justified > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #777; /*TEXT COLOR IN NAVBAR*/
+    text-align: center;
+
+}

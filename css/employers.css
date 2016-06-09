@@ -1,0 +1,54 @@
+
+/* employers page css */
+
+.emp-container {
+    line-height: 0;
+}
+
+.emp-row {
+    display: inline-block;
+    width: 100%;
+    line-height: 1.42857143;
+}
+
+.emp-row-left {
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+.emp-row-right {
+    width: 50%;
+    height: 600px;
+    float: right;
+}
+
+#emp-large-image {
+    width: 100%;
+    height: 600px;
+}
+
+.emp-logo-container {
+    margin-top: 20px;
+}
+
+.emp-logo-row {
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#logo-row-text {
+    margin-bottom: 50px;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+/* end employers page css */
+
