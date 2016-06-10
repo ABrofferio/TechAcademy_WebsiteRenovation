@@ -177,7 +177,7 @@
                 <li><a href="contact-the-tech-academy-by-email-address-and-phone-number.html">Contact</a></li>
                 <li><a href="staff-and-employees-of-the-tech-academy.html">Staff</a></li>
                 <li><a href="employers-contact-for-the-tech-academy-companies-that-hire-graduates.html">Employers</a></li>
-                <li><a href="blog">Blog</a></li>
+                <li><a href="the-tech-academy-blog">Blog</a></li>
             </ul>
             <div id="footAddress">
                 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><strong><i class="fa fa-building fa-lg slideanim"></i> The Tech Academy</strong><br/>
@@ -218,35 +218,6 @@
 
     </div> <!-- /container -->
 	
-    <script>
-        $(document).ready(function () {
-            function waitThenDoSomething(waitTimeInMS, myAction) {
-                setTimeout(function () {
-                    if (myAction == "displayPopup") {
-                        $('#myModalPopUp').modal('show');
-                    }
-                }, waitTimeInMS); //time in ms to wait before modal dialog box shows up.
-            }
-            if (document.referrer == "https://learncodinganywhere.com/the-tech-academy.html" || document.referrer == "https://learncodinganywhere.com/") {
-                waitThenDoSomething(0, "displayPopup"); //this function waits 0 milliseconds before displaying a popup.
-                //I left the wait function here so that if you change your mind and decide you want to wait before showing 
-                //the modal dialog box, it's as easy as changing the 0 above to a different number, rather than recoding 
-                //all of it again. 
-				console.log("test");
-            }
-            $(window).ready(function () { $(window).scroll() });
-            $(window).scroll(function () {
-                $(".slideanim").each(function () {
-                    var pos = $(this).offset().top;
-
-                    var winTop = $(window).scrollTop();
-                    if (pos < winTop + $(window).height()) {
-                        $(this).addClass("slide");
-                    }
-                });
-            });
-        });
-    </script>
 
 
     <div id="myModalPopUp" class="modal fade" role="dialog"> <!-- modal dialog box -->
@@ -315,7 +286,7 @@
 					<div class="questions form-group">
 						<div class='input-group date' id='datetimepicker1' required>
 							<div id="hidePhone"><input type='text' name="datetimepicker1[]" class="form-control" name="phonecall" placeholder="SCHEDULE CALL: 10am -4:30pm PST)" id="phone_input1"/></div>
-							<div id="origPhone"><input type='text' name="datetimepicker1[]" class="form-control" name="phonecall" placeholder="SCHEDULE A PHONE CALL (Open Hours: 10am -4:30pm PST)" id="phone_input2"/></div>
+							<div id="origPhone"><input type='text' name="datetimepicker1[]" class="form-control" name="phonecall" placeholder="SCHEDULE A PHONE CALL (10am -4:30pm PST)" id="phone_input2"/></div>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 								</span>
@@ -330,7 +301,7 @@
 					<div class="questions form-group">
 						<div class='input-group date' id='datetimepicker2' required>
 							<div id="hideTour"><input type='text' name="datetimepicker2[]" class="form-control" name="tour" placeholder="SCHEDULE TOUR: 10am-4:30pm PST)" id="tour_input1"/></div>
-							<div id="origTour"><input type='text' name="datetimepicker2[]" class="form-control" name="tour" placeholder="SCHEDULE A TOUR (Open Hours: 10am -4:30pm PST)" id="tour_input2"/></div>
+							<div id="origTour"><input type='text' name="datetimepicker2[]" class="form-control" name="tour" placeholder="SCHEDULE A TOUR (10am -4:30pm PST)" id="tour_input2"/></div>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 								</span>
@@ -349,6 +320,8 @@
             </div>
         </div>
     </div>
+	
+	
 
 	
 	<!-- Start Alexa Certify Javascript -->
@@ -364,6 +337,8 @@ _atrk_opts = { atrk_acct:"jT90m1a8FRh2cN", domain:"learncodinganywhere.com",dyna
     <script src="js/npm.js"></script>
 
 	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	<script src="js/staff.js" type="text/javascript">
+	</script>
 	<script src="js/contact.js" type="text/javascript">
 	</script>
 </body>

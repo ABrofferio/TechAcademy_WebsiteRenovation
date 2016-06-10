@@ -10,22 +10,27 @@ $(document).ready(function() {
 				$('#img_7').insertBefore('#location_7');
 			}
 			
-			function waitThenDoSomething(waitTimeInMS, myAction) {
-			    setTimeout(function () {
-			        if (myAction == "displayPopup") {
-			            $('#myModalPopUp').modal('show');
-			        }
-			    }, waitTimeInMS); //time in ms to wait before modal dialog box shows up.
-			}
+            function waitThenDoSomething(waitTimeInMS, myAction) {
+                setTimeout(function () {
+                    if (myAction == "displayPopup") {
+                        $('#myModalPopUpContact').modal('show');
+                    }
+                }, waitTimeInMS); //time in ms to wait before modal dialog box shows up.
+            }
+            if (document.referrer == "https://learncodinganywhere.com" || document.referrer == "https://learncodinganywhere.com/") {
+                waitThenDoSomething(0, "displayPopup"); //this function waits 0 milliseconds before displaying a popup.
+                //I left the wait function here so that if you change your mind and decide you want to wait before showing 
+                //the modal dialog box, it's as easy as changing the 0 above to a different number, rather than recoding 
+                //all of it again. 
+				console.log("test");
+            }
 
-			function showContactForm(myAction) {
+            function showContactForm(myAction) {
                 $('#myModalPopUpContact').modal('show');
                 $('#myModalPopUp').modal('hide');
             }
-            waitThenDoSomething(0, "displayPopup"); //this function waits 60000milliseconds before displaying a popup.
             
             $("a").click(function () { window.onbeforeunload = dontGiveMePopup; }); //don't make popup appear just because user clicked our site's hyperlink.
-            document.getElementById("yes-modal-btn").onclick = function () { showContactForm(0,"displayPopup") };//this shows the contact form when yes is clicked on first popUp
             $("header").hide();
             $(".text-center").scrollTop(0);
             $(".container").hide();

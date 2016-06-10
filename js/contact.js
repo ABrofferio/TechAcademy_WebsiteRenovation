@@ -43,13 +43,19 @@ $(document).ready(function() {
 				enabledHours: [10, 11, 12, 13, 14, 15, 16]
 			});
 			$("#noButton1").click(function() {
-					$("#phone_input1").val("NOT AT THIS TIME");
+					$("#phone_input1").val("NOT NOW");
 					$("#phone_input2").val("NOT AT THIS TIME");
 			});
 			$("#noButton2").click(function() {
-					$("#tour_input1").val("NOT AT THIS TIME");
+					$("#tour_input1").val("NOT NOW");
 					$("#tour_input2").val("NOT AT THIS TIME");
 			});
+			if ($("#phone_input1").val()=="SCHEDULE CALL"){
+				$("#phone_input1").val("SCHEDULE CALL");
+			}
+			if ($("#tour_input1").val()=="SCHEDULE TOUR"){
+				$("tour_input1").val("SCHEDULE TOUR");
+			}
 		});
 		
 					
