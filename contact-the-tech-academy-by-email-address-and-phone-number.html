@@ -85,17 +85,19 @@
 				<p class="contactUs">CONTACT US!</p>
                     
                 <form method="POST" action="http://plus.allforms.mailjol.net/u/b1749119.php">
-
+               				<div class="questions form-group">
+						<div id="required"><p>* = required field</p></div>
+					</div>
 					<div class="questions form-group">
-						<div id="selectBox"><input id="Name" type="text" name="Name" placeholder="ENTER YOUR NAME" class="sixty" required />
+						<div id="selectBox"><input id="Name" type="text" name="Name" placeholder="ENTER YOUR NAME *" class="sixty" required />
 						</div>
 					</div>
 					<div class="questions form-group">
-						<div id="selectBox"><input id="Email" type="text" name="Email" placeholder="  ENTER YOUR EMAIL: you@yourdomain.com" class="sixty" required />
+						<div id="selectBox"><input id="Email" type="text" name="Email" placeholder="  ENTER YOUR EMAIL: you@yourdomain.com *" class="sixty" required />
 						</div>
 					</div>
 					<div class="questions form-group">
-						<div id="selectBox"><input id="Phone" type="text" name="Phone" placeholder="ENTER YOUR PHONE NUMBER" class="sixty" required />
+						<div id="selectBox"><input id="Phone" type="text" name="Phone" placeholder="ENTER YOUR PHONE NUMBER *" class="sixty" required />
 						</div>
 					</div>
 					<div class="questions form-group">
@@ -109,7 +111,7 @@
 					
 					<div class="questions form-group">
 						<select id="studyDropDown" name="studyDropDown" required>
-							<option value="default">HOW WILL YOU STUDY THE PROGRAM?</option>
+							<option value="default">HOW WILL YOU STUDY THE PROGRAM? *</option>
 							<option value="online">ONLINE STUDY (REMOTE, FROM HOME, INTERNATIONAL)</option>
 							<option value="in_person">IN-PERSON STUDY (STUDY AT OUR SCHOOL IN PORTLAND)</option>
 							<option value="not_studying">I AM NOT CONTACTING YOU TO STUDY THE PROGRAM</option>
@@ -121,7 +123,7 @@
 					</div>
 					<div class="questions form-group">
 						<select id="hearDropDown" name="hearDropDown" required>
-							<option value="default">HOW DID YOU HEAR ABOUT US?</option>
+							<option value="default">HOW DID YOU HEAR ABOUT US? *</option>
 							<option value="radio">RADIO</option>
 							<option value="online_search">ONLINE SEARCH</option>
 							<option value="google">GOOGLE</option>
@@ -141,8 +143,8 @@
 					<div id="callInstructions"><p>Schedule a call below</p></div>
 					<div class="questions form-group">
 						<div class='input-group date' id='datetimepicker1' required>
-							<div id="hidePhone"><input id="phone_input1" type='text' name="datetimepicker1[]" class="form-control" name="phonecall" placeholder="SCHEDULE CALL"/></div>
-							<div id="origPhone"><input id="phone_input1" type='text' name="datetimepicker1[]" class="form-control" name="phonecall" placeholder="SCHEDULE A CALL (Open Hours: 10am - 4:30pm PST) "/></div>
+							<div id="hidePhone"><input id="phone_input1" type='text' name="datetimepicker1[]" class="form-control" name="phonecall" placeholder="SCHEDULE CALL *"/></div>
+							<div id="origPhone"><input id="phone_input1" type='text' name="datetimepicker1[]" class="form-control" name="phonecall" placeholder="SCHEDULE A CALL (Open Hours: 10am - 4:30pm PST) *"/></div>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 								</span>
@@ -157,8 +159,8 @@
 					<div id="tourInstructions"><p>Schedule a tour below</p></div>
 					<div class="questions form-group"> 
 						<div class='input-group date' id='datetimepicker2' required>
-							<div id="hideTour"><input id="tour_input1" type='text' name="datetimepicker2[]" class="form-control" name="tour" placeholder="SCHEDULE TOUR"/></div>
-							<div id="origTour"><input id="tour_input2" type='text' name="datetimepicker2[]" class="form-control" name="tour" placeholder="SCHEDULE A TOUR (Open Hours: 10am - 4:30pm PST)"/></div>
+							<div id="hideTour"><input id="tour_input1" type='text' name="datetimepicker2[]" class="form-control" name="tour" placeholder="SCHEDULE TOUR *"/></div>
+							<div id="origTour"><input id="tour_input2" type='text' name="datetimepicker2[]" class="form-control" name="tour" placeholder="SCHEDULE A TOUR (Open Hours: 10am - 4:30pm PST) *"/></div>
 							<span class="input-group-addon">
 								<span class="glyphicon glyphicon-calendar"></span>
 								</span>

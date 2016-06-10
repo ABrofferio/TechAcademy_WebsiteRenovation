@@ -221,6 +221,16 @@ h2, h4{
  	 margin-top: 10px;
  }
  
+  #contactForm  #required {
+  	 text-align: left;
+	 font-size: 70%;
+	 color: grey;
+	 letter-spacing: 1px;
+	 margin-left: 8% !important;
+	 margin-bottom: -10px !important;
+
+}
+ 
   #contactForm  #Name {
     height: 50px !important;
     border: 3px solid rgba(45, 45, 48,1) !important;
