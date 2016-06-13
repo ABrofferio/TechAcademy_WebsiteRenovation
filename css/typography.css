@@ -1,0 +1,36 @@
+html {
+    font-size: 12px;
+
+}
+
+body {
+
+    font-size: 1.4em;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header h1 {
+    letter-spacing: 4px;
+}
+
+#topList h2 {
+    font-size: 21px;
+}
+.dropdown-menu {
+    font-size: 1.1em;
+}
+
+.navText {
+
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+
+.navText:hover {
+    font-weight: bold;
+}
+
+.footer {
+    font-family: 'Titillium Web', sans-serif;
+}
+

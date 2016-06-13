@@ -1,0 +1,124 @@
+@import url("normalize.css");
+/*the above code renders elements consistently between browsers. https://necolas.github.io/normalize.css/ */
+
+
+
+/******************************************************************************
+    LAYOUTS
+******************************************************************************/
+body {
+    max-width: 98.75%;
+    padding-top: 115px;
+}
+
+
+/******************************************************************************
+    USEFUL CLASSES
+******************************************************************************/
+
+.navText {
+    padding: 1em;
+}
+
+.footer {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*You can add this class to the first h1 in a page to set space for the nav bar across most devices/browswers*/
+.page-header {
+    padding-top: 1.1em;
+}
+
+
+.fadeIn {
+    opacity: 1;
+}
+/******************************************************************************
+    INDEX - OVERVIEW STYLES
+******************************************************************************/
+.overview-content h2 a {
+    color: #004271;
+    text-decoration: none;
+}
+.overview-content p, #overview-header {
+    transition:all .8s;
+    -moz-transition:all .8s; /* FIREFOX */
+    -webkit-transition:all .8s; /* SAFARI and CHROME */
+    -o-transition:all .8s; /* OPERA */
+
+    transform: scale(0.950);
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+}
+.overview-content p:hover{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+}
+
+#overview-header:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+}
+
+/******************************************************************************
+    INDEX - TESTIMONIALS SLIDESHOW STYLES
+******************************************************************************/
+
+.testimonials-slider {
+
+    overflow:hidden;
+    position: relative;
+    min-height: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials-slider .btn-testimonial-read-more {
+    position: absolute;
+    bottom: 0;
+}
+
+.testimonials-slider .testimonials-text {
+
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.5em;
+    transition:all .8s;
+    -moz-transition:all .8s; /* FIREFOX */
+    -webkit-transition:all .8s; /* SAFARI and CHROME */
+    -o-transition:all .8s; /* OPERA */
+
+    transform: scale(0.80);
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+}
+
+.testimonials-slider .testimonials-text:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+}
+
+
+
+/******************************************************************************
+    HTMLPAGE - MORE STYLES
+******************************************************************************/
+

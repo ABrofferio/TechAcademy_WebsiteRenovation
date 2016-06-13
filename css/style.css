@@ -1,85 +1,49 @@
-/* COLORS ***/
-html {
-  font-size: 12px; 
+@import url("main.css");            /*Section-0: Add new styles here! */
+@import url("typography.css");      /*Section-1*/
+@import url("colors.css");          /*Section-2*/
+/*Add this file (style.css) to an HTML file to use all of these styles.*/
 
-  }
+/******************************************************************************
+    MEDIA
+******************************************************************************/
 
-body {
-  max-width: 98.75%;
-  padding-top: 115px;
-  font-size: 1.4em; 
-  font-family: 'Titillium Web', sans-serif;
-  }
-
-.header h1 {
-    letter-spacing: 4px;
-    /*color: #FFFFFF;*/
-    color: rgba(45, 45, 48, 1);
+/* Hide google plus thing */
+.googleplus {
+    display: none !important;
 }
-h3{
-    color: rgba(45, 45, 48,1);
-    }
+/******************************************************************************
+    ANIMATIONS AND REACTIVE STUFF
+******************************************************************************/
 
-h2, h4{
-    color: rgba(255,255,255,1);
-}
-
-#topList h2 {
-	font-size: 21px;
-}
-/*Dallin's, transparency in navbar*/
-.navbar {
-    opacity: 0.93;
-}
-
-.navbar-header button {
-  background: #004271; 
-}
-
-.navbar-header button span.icon-bar {
-    background: #fff;
-}
-
-
-.dropdown-menu {
-    font-size: 1.1em;
-}
-
-
-.navbar-toggle{
-    background-color: #004271;
-}
-
-.masthead {
-    background-color:rgba(0, 0, 0, 0.5);
-}
-
-
-.navText {
-    font-size: 1.5em;
-    white-space:nowrap;
-    padding: 1em;
-}
 
 .navText:hover {
+
     animation: scale .5s forwards;
+}
+
+.page-text {
+    font-size: 1.2em;
+}
+.page-text p:hover{
     font-weight: bold;
 }
 
+.largerTxt p {
+    color: #000;
+    transition-property: color;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+.largerTxt p:hover {
+    color: #000;
+    font-weight:bold;
+}
 
 
-	
-.footer {
-  display: block;
-  padding-top: 0px;
-  padding-bottom: 0px; 
-  font-family: 'Titillium Web', sans-serif;
-  }
-  
-  /* Hide google plus thing */
-.googleplus {
-  display: none !important;
-  }
+/******************************************************************************
+    THE ORIGINAL CSS STYLES
+******************************************************************************/
+
   
 #rights {
 	font-size: 0.8em !important;
@@ -935,10 +899,7 @@ blockquote {
         padding: 0px;
         margin-top: 0px;
     }
-	  
-    #first {
-        padding-top: 0px; 
-    }
+
    
     footer .footer_nav {
         font-size: 1em;
@@ -1311,9 +1272,6 @@ a.btn-lg:active
 }
 
 
-.fadeIn {
-    opacity: 1;
-}
 
 
 .slideanim {visibility:hidden;}
@@ -1658,28 +1616,6 @@ color: #495a62;
 }
 
 
-/*Dallin's, sets original color for transition on about*/
-.largerTxt {
-    color: #000;
-    transition-property: color;
-    transition-duration: .5s;
-    transition-timing-function: linear;
-}
-/*Dallin's, transitions to black*/
-/* Added for transition in font to more bold when hover*/
-.largerTxt:hover {
-    color: #000;
-    font-weight:bold;
-}
-
-#first{
-  font-size: 1.2em;
-}
-
-/* Turns text bold when hover */
-#first:hover{
-  font-weight: bold;
-}
 /*Dallin's, dynamic effect on PITC picture*/
 
 #about{
