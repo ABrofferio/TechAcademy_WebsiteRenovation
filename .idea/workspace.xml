@@ -4,16 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b030c497-5cad-4853-8789-092fe3cd1aed" name="Default" comment="cleaned up some errors and tags on front page">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/colors.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/index-testimonials-slideshow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/typography.css" />
+    <list default="true" id="b030c497-5cad-4853-8789-092fe3cd1aed" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/normalize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about-the-tech-academy.html" afterPath="$PROJECT_DIR$/about-the-tech-academy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the-tech-academy-testimonials-successes-and-reviews.html" afterPath="$PROJECT_DIR$/the-tech-academy-testimonials-successes-and-reviews.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/the-tech-academy.html" afterPath="$PROJECT_DIR$/the-tech-academy.html" />
     </list>
     <ignored path="TechAcademy_WebsiteRenovation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,21 +29,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.51785713">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
+                <state relative-caret-position="374">
                   <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index-testimonials-slideshow.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/index-testimonials-slideshow.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -59,14 +42,14 @@
           <file leaf-file-name="the-tech-academy.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/the-tech-academy.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1207">
+                <state relative-caret-position="323">
                   <caret line="71" column="74" selection-start-line="71" selection-start-column="74" selection-end-line="71" selection-end-column="74" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="the-tech-academy-testimonials-successes-and-reviews.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="the-tech-academy-testimonials-successes-and-reviews.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/the-tech-academy-testimonials-successes-and-reviews.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="51">
@@ -79,7 +62,7 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
+                <state relative-caret-position="493">
                   <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
                   <folding />
                 </state>
@@ -223,7 +206,38 @@
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechAcademy_WebsiteRenovation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechAcademy_WebsiteRenovation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechAcademy_WebsiteRenovation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechAcademy_WebsiteRenovation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TechAcademy_WebsiteRenovation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
     </panes>
   </component>
@@ -309,7 +323,7 @@
       <workItem from="1465393012034" duration="2023000" />
       <workItem from="1465532069863" duration="3568000" />
       <workItem from="1465749223613" duration="9731000" />
-      <workItem from="1465775862401" duration="1194000" />
+      <workItem from="1465775862401" duration="1500000" />
     </task>
     <task id="LOCAL-00001" summary="Added hover effects over overview and testimonial text. The testimonials tile now shows just once testimonial at a time, fading in and our, with each testimonial linked to the related section on the testimonials page. Need to replace the fade effect with a slideshow type of effect">
       <created>1465330717970</created>
@@ -339,17 +353,24 @@
       <option name="project" value="LOCAL" />
       <updated>1465344468124</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added testimonials slider and front page text styles into styles. organized newly added styles as imports in style.css. first task to add bold text make all text dynamic like in About page is complete. Reorganized markup so that text in About and Testimonials pages are affected by p element rather than the whole div.">
+      <created>1465777298682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1465777298682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64147000" />
+    <option name="totallyTimeSpent" value="64453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22321428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22321428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23731588" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -404,7 +425,8 @@
     <MESSAGE value="Sliding now works. Changed setIntervals() to setTimeout(), and made the showDivs method recursive, with a delay right before calling itself again." />
     <MESSAGE value="Resolved merge conflict with index.html." />
     <MESSAGE value="Resolved merge conflict with index.html by accepting the repos version, in my previous push. This commit has the resolved index.html file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resolved merge conflict with index.html by accepting the repos version, in my previous push. This commit has the resolved index.html file" />
+    <MESSAGE value="added testimonials slider and front page text styles into styles. organized newly added styles as imports in style.css. first task to add bold text make all text dynamic like in About page is complete. Reorganized markup so that text in About and Testimonials pages are affected by p element rather than the whole div." />
+    <option name="LAST_COMMIT_MESSAGE" value="added testimonials slider and front page text styles into styles. organized newly added styles as imports in style.css. first task to add bold text make all text dynamic like in About page is complete. Reorganized markup so that text in About and Testimonials pages are affected by p element rather than the whole div." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -568,6 +590,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -607,26 +632,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index-overview.css" />
-    <entry file="file://$PROJECT_DIR$/css/index-testimonials-slideshow.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="374">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/the-tech-academy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="74" selection-start-line="71" selection-start-column="74" selection-end-line="71" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -635,14 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -671,6 +672,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="176" column="49" selection-start-line="176" selection-start-column="49" selection-end-line="176" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the-tech-academy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="71" column="74" selection-start-line="71" selection-start-column="74" selection-end-line="71" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index-testimonials-slideshow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
