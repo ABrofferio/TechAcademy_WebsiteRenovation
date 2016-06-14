@@ -9,8 +9,14 @@ $(document).ready(function() {
 				$('#img_6').insertBefore('#location_6');
 				$('#img_7').insertBefore('#location_7');
 			}
-			
-            function waitThenDoSomething(waitTimeInMS, myAction) {
+
+    $('.clickForContactForm').on('click', function(){
+        console.log('click for contact form');
+        waitThenDoSomething(0, 'displayPopup');
+    });
+
+
+    function waitThenDoSomething(waitTimeInMS, myAction) {
                 setTimeout(function () {
                     if (myAction == "displayPopup") {
                         $('#myModalPopUpContact').modal('show');

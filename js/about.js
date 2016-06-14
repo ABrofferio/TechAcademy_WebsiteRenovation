@@ -1,35 +1,43 @@
 $(document).ready(function() {
-    		$('#about-container').fadeIn(2000);		
-		});
-		
-		$(document).ready(function() {
-			var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-			if (w <657) {
-				$('#img_1').insertBefore('#location_1');
-			}
-			function waitThenDoSomething(waitTimeInMS, myAction) {
-			    setTimeout(function () {
-			        if (myAction == "displayPopup") {
-			            $('#myModalPopUp').modal('show');
-			        }
-			    }, waitTimeInMS); //time in ms to wait before modal dialog box shows up.
-			}
-			if (document.referrer == "https://learncodinganywhere.com/index.html" || document.referrer == "https://learncodinganywhere.com/") {
-			    waitThenDoSomething(0, "displayPopup"); //this function waits 0 milliseconds before displaying a popup.
-			    //I left the wait function here so that if you change your mind and decide you want to wait before showing 
-			    //the modal dialog box, it's as easy as changing the 0 above to a different number, rather than recoding 
-			    //all of it again.
-			}
-			$(window).ready(function () { $(window).scroll() });
-			$(window).scroll(function () {
-			    $(".slideanim").each(function () {
-			        var pos = $(this).offset().top;
 
-			        var winTop = $(window).scrollTop();
-			        if (pos < winTop + $(window).height()) {
-			            $(this).addClass("slide");
-			        }
-			    });
-			});
+	$('.clickForContactForm').on('click', function(){
+		console.log('click for contact form');
+		waitThenDoSomething(0, 'displayPopup');
+	});
+
+
+	$('#about-container').fadeIn(2000);
+	var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+	if (w <657) {
+		$('#img_1').insertBefore('#location_1');
+	}
+
+	function waitThenDoSomething(waitTimeInMS, myAction) {
+		console.log(waitTimeInMS);
+		setTimeout(function () {
+			if (myAction == "displayPopup") {
+				$('#myModalPopUpContact').modal('show');
+			}
+		}, waitTimeInMS); //time in ms to wait before modal dialog box shows up.
+	}
+
+	if (document.referrer == "https://learncodinganywhere.com/index.html" || document.referrer == "https://learncodinganywhere.com/") {
+		waitThenDoSomething(0, "displayPopup");
+	}
+
+	$(window).ready(function () { $(window).scroll() });
+
+	$(window).scroll(function () {
+		$(".slideanim").each(function () {
+			var pos = $(this).offset().top;
+
+			var winTop = $(window).scrollTop();
+			if (pos < winTop + $(window).height()) {
+				$(this).addClass("slide");
+			}
 		});
-		
+	});
+
+
+
+});

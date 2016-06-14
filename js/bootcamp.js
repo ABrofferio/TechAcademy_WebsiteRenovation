@@ -1,4 +1,3 @@
-<script>
         $(document).ready(function () {
             function waitThenDoSomething(waitTimeInMS, myAction) {
                 setTimeout(function () {
@@ -26,4 +25,3 @@
                 });
             });
         });
-    </script>
