@@ -1,7 +1,16 @@
-@import url("main.css");            /*Section-0: Add new styles here! */
-@import url("typography.css");      /*Section-1*/
-@import url("colors.css");          /*Section-2*/
-/*Add this file (style.css) to an HTML file to use all of these styles.*/
+@import url("main.css");       /*Section-0: New styles */
+@import url("typography.css"); /*Section-1*/
+@import url("colors.css");     /*Section-2*/
+
+/*
+*Add this file (style.css) to an HTML file to use all of these styles.
+
+*This is a scaffolding setup, to give the project some structure to aid in updating, maintenance, and testing.
+
+*When updating elements on a page, follow classes and ids, searching for repetition and buried code below. Reorganize any non-DRY code into the relevant section above, fixing errors along the way.
+
+*All new styles should go in one of the above imported css files. - Makali'i (6.15.16)
+*/
 
 /******************************************************************************
     MEDIA
@@ -89,10 +98,14 @@ body.stories blockquote {
 
 
 /******************************************************************************
-    THE ORIGINAL CSS STYLES
+    Below are all of the original style rules.
+    Try not to add to the code below, but feel
+    free to pull code out of this file when
+    working on an element using classes or ids
+    found below, and to put them into one of the
+    imported css files linked at the top.
 ******************************************************************************/
 
-  
 #rights {
 	font-size: 0.8em !important;
 	text-align: center !important;
@@ -103,7 +116,7 @@ body.stories blockquote {
 #footSocial{
 	/*text-align: left !important;*/
 	width: 100% !important;
-    /*left: 0px !important;*/
+    /*left: 0 !important;*/
     /*left: 33%;*/
 	height: 65px !important;
 	/*float: left !important;*/
@@ -124,13 +137,13 @@ body.stories blockquote {
 }
 
 #facebook{
-    margin-left: 0% !important;
+    margin-left: 0 !important;
 }
 #twitter{
     margin-left: 50% !important;
 }
 #instagram{
-    margin-left: 0% !important;
+    margin-left: 0 !important;
 }
 #linkedin{
     margin-left: 50% !important;
@@ -187,7 +200,7 @@ body.stories blockquote {
    
  
  #topButton{
-	margin-left: 0px !important;
+	margin-left: 0 !important;
     font-size: .9em;
  }
  
@@ -323,7 +336,7 @@ body.stories blockquote {
 	margin-left: 10% !important;
 	margin-right: 10% !important;
 	padding: 10px !important;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	/*margin-top: 10px !important;*/
 
 }
@@ -355,7 +368,7 @@ body.stories blockquote {
 	margin-left: 10% !important;
 	margin-right: 10% !important;
 	padding: 10px !important;
-	margin-bottom: 0px !important;
+	margin-bottom: 0 !important;
 
 }
 
@@ -429,7 +442,7 @@ body.stories blockquote {
  }
  #contactForm .btn-group {
 	width: 60px !important;
-	padding: 0px;
+	padding: 0;
 	margin-left: 10% !important;
 	margin-right: 10% !important;
  }
@@ -546,8 +559,8 @@ background-size: cover; */ }
 .nav-justified {
     background: #fff; /*BACKGROUND COLOR OF NAVBAR*/
     box-shadow: 0;/* 10px 15px grey; */
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
     margin-bottom: 0;
 }
 
@@ -557,8 +570,8 @@ ul.nav a:hover {
 }
 
   .nav-justified > li > a {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
     margin-bottom: 0;
     font-weight: bold;
     color: #777; /*TEXT COLOR IN NAVBAR*/
@@ -567,18 +580,18 @@ ul.nav a:hover {
   }
 
 div.row {
-  margin-top: 0px; 
+  margin-top: 0; 
   overflow: hidden;
-  padding: 0px;
+  padding: 0;
 }
 div.row p{  /*ADDED 2/9/16 TO GET SPACE BETWEEN THE SIDE OF TEXT AND GRID BOX BOUNDARIES*/
     padding-left: 25px;
     padding-right: 25px;
 	/*margin-top: 15px; /*THIS WAS THE ROOT CUASE OF GRID ON MOBILE HAVING SPACE BETWEEN SOME ROWS. WE MAY NEED TO SEPERATE OUT MOBILE-VS-DESKTOP ON THIS*/
-    margin-top: 0px; 
+    margin-top: 0; 
 }
   div.row.tiles {
-    margin: 0px; } 
+    margin: 0; } 
     div.row.tiles img {
       width: 200px; }
         div.row.tiles img.img_fit {
@@ -591,22 +604,22 @@ div.row p{  /*ADDED 2/9/16 TO GET SPACE BETWEEN THE SIDE OF TEXT AND GRID BOX BO
 	}
 	
   div.row div {
-    padding: 0px; /* THIS IS CAUSING THE ISSUE WITH TESTIMONIALS PAGE. 0 MAKES HOMEPAGE WORK, BUT TESTIMONIALS PAGE IMAGES CUT OFF. 30 MAKES TESTIMONIALS WORK, BUT BREAKS HOMEPAGE*/
-    border-radius: 0px;
+    padding: 0; /* THIS IS CAUSING THE ISSUE WITH TESTIMONIALS PAGE. 0 MAKES HOMEPAGE WORK, BUT TESTIMONIALS PAGE IMAGES CUT OFF. 30 MAKES TESTIMONIALS WORK, BUT BREAKS HOMEPAGE*/
+    border-radius: 0;
     font-size: 1.1em; }
 
     div.row div .btn {
-      padding-top: 0px; }
+      padding-top: 0; }
     div.row div.contact, div.row div .form-group {
-      padding: 0px 0;
+      padding: 0 0;
       margin: 0; }
     div.row div ul.tiled {
         list-style-position: inside;
         margin: 0;
-        padding: 0 0 0px;
+        padding: 0 0 0;
         color: #004271; }
       div.row div ul.tiled li {
-        padding-top: 0px; }
+        padding-top: 0; }
 
 .row [class*="col-"].newTiledInfoBlack{
   margin-bottom: -99999px; 
@@ -623,7 +636,7 @@ div.row p{  /*ADDED 2/9/16 TO GET SPACE BETWEEN THE SIDE OF TEXT AND GRID BOX BO
 
 #carousel-home {
   display: block;
-  margin: 0px; /*WAS 10PX AUTO*/
+  margin: 0; /*WAS 10PX AUTO*/
   width: 100%;
   height: 150%;
 }
@@ -638,12 +651,12 @@ div.row p{  /*ADDED 2/9/16 TO GET SPACE BETWEEN THE SIDE OF TEXT AND GRID BOX BO
 	width: 100%;
 	height: 100%;
  	
-    padding: 0px;
+    padding: 0;
     height: 460px;
     margin-bottom: -9px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px; 
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0; 
     max-width: 99999999px;
 } 
 
@@ -651,8 +664,8 @@ div.row p{  /*ADDED 2/9/16 TO GET SPACE BETWEEN THE SIDE OF TEXT AND GRID BOX BO
 	width: 100%;
 	height: 100%;
     height: 460px;
-	margin: 0px;
-    padding: 0px;
+	margin: 0;
+    padding: 0;
     align-items: center;
     max-width: 853px;
 }
@@ -678,7 +691,7 @@ div.row p{  /*ADDED 2/9/16 TO GET SPACE BETWEEN THE SIDE OF TEXT AND GRID BOX BO
 .header{
     /*background: rgba(45, 45, 48,1);*/
     background: rgba(255, 255, 255, 1);
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-top: -65px;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -759,11 +772,11 @@ blockquote {
 }
 /*Dallin's Bad Awesome accodion effects!*/
 .panel-group .panel+.panel {
-    margin-top: 0px !important;
+    margin-top: 0 !important;
 }
 .panel-group .panel { /*Dallin's*/
     margin-bottom: 0;
-    border-radius: 0px;
+    border-radius: 0;
     border-bottom: none;
 }
 .container .panel-group {
@@ -791,8 +804,8 @@ blockquote {
 .panel-heading { /*Dallin*/
     background-color: rgba(45, 45, 48, 1) !important;
     color: #fff !important;
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
 }
 .panel-default { /*Dallin*/
     border-color: #fff;
@@ -840,7 +853,7 @@ blockquote {
     margin-right: 30px;
 }
 #enrollmentMain h3 { /*Dallin*/
-    margin-top: 0px; padding-top:0px;
+    margin-top: 0; padding-top:0px;
 }
 .contactUs { /*Dallin*/
     font-weight: bold;
@@ -852,7 +865,7 @@ blockquote {
 
 .container {
     width: 100%; 
-    padding: 0px;
+    padding: 0;
     margin: 0 auto;
 }
 
@@ -887,21 +900,21 @@ blockquote {
         margin-top: -65px;
         padding-top: 10px;
         padding-bottom: 25px;
-        vertical-align: 0%;
+        vertical-align: 0;
     }
     #iframeHomePage{
 	width: 100%;
 	height: 100%;
  	
     padding-top: 0x;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
     height: 460px;
     margin-bottom: -28px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
     max-width: 99999999px;
     } 
     .onlyDisplayOnMobile{
@@ -909,14 +922,14 @@ blockquote {
     }
     .onlyDisplayOnDesktop{
         display: none;
-        height: 0px !important;
+        height: 0 !important;
     }
 }
 
 @media (max-width: 768px) {
     body {
-        padding: 0px;
-        margin-top: 0px;
+        padding: 0;
+        margin-top: 0;
     }
 
    
@@ -928,8 +941,8 @@ blockquote {
         /*background: rgba(45, 45, 48,1);*/
         background: rgba(255, 255, 255, 1);
         margin-bottom: -30px;
-        margin-top: 0px;
-        padding-top: 0px;
+        margin-top: 0;
+        padding-top: 0;
         padding-bottom: 30px; 
         vertical-align: 50%;
     }
@@ -937,8 +950,8 @@ blockquote {
     .jumbotron{
         margin-bottom:0px;
         margin-top:0px; 
-        padding-top: 0px;     
-        padding-bottom: 0px;
+        padding-top: 0;     
+        padding-bottom: 0;
     }
     #footAddress {
 	    margin-left: 1%;
@@ -972,13 +985,13 @@ blockquote {
     }
 
     #facebook{
-        margin-left: 0% !important;
+        margin-left: 0 !important;
     }
     #twitter{
         margin-left: 50% !important;
     }
     #instagram{
-        margin-left: 0% !important;
+        margin-left: 0 !important;
         
     }
 
@@ -992,14 +1005,14 @@ blockquote {
 	height: 100%;
  	
     padding-top: 0x;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
     height: 460px;
     margin-bottom: -28px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
     max-width: 99999999px;
     } 
     .carousel-caption {
@@ -1031,7 +1044,7 @@ blockquote {
     }
     .onlyDisplayOnDesktop{
         display: none;
-        height: 0px !important;
+        height: 0 !important;
     }
 }
 
@@ -1172,15 +1185,15 @@ blockquote {
 }
 
 #topList a.btn-lg {
-	margin: 0px !important;
+	margin: 0 !important;
 }
 
  a.btn-lg {
 	font-size: 1.1em;
 	font-weight: bold;
 	text-transform: uppercase;
-	padding-bottom: 0px;
-	padding-top: 0px;
+	padding-bottom: 0;
+	padding-top: 0;
     margin: 16px auto;
 	color: #ccc;
 	background-color: #555;
@@ -1233,8 +1246,8 @@ a.btn-lg:active
 	display: none;
 	opacity: .8;
 	position: fixed;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	background: #FFF;
 	width: 100%;
 	z-index: 10;
@@ -1263,8 +1276,8 @@ a.btn-lg:active
 	width: 66%;
     
 	position: absolute;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	z-index: 1000;
 }
 
@@ -1273,11 +1286,11 @@ a.btn-lg:active
 .newTiledInfoBlack {
     background-color: rgba(45, 45, 48, 1);
     color:rgba(255,255,255,1);  
-    margin: 0px;
+    margin: 0;
 }
 
 .newTiledInfoWhite {
-    margin: 0px;
+    margin: 0;
     background-color: rgba(255,255,255, 1);
     color:rgba(0,0,0,1);  
 }
@@ -1328,7 +1341,7 @@ a.btn-lg:active
 
 
 .bullets:hover, .bullets:focus, .bullets:active {
-   text-shadow: 1px 0px 20px white;
+   text-shadow: 1px 0 20px white;
    -webkit-transition: width 0.3s; /*Safari & Chrome*/
    transition: width 0.3s;
    -moz-transition: width 0.3s; /* Firefox 4 */
@@ -1404,8 +1417,8 @@ div#tour-container { display: none; }
 
 .your-class { 
 	/* changed margins to fix arrow position - Josh*/
-  margin-right: 0px; 
-  margin-left: 0px; // center
+  margin-right: 0; 
+  margin-left: 0; // center
   /*width: 2365px;  small screen the page look centered*/
   text-align:center; 
   /* added margin to top for space between text and slideshow */
@@ -1441,7 +1454,7 @@ div#tour-container { display: none; }
 
 .emp-row-right {
 	width: 50%;
-	height 600px;
+	height: 600px;
 	float: right;
 }
 
