@@ -31,3 +31,7 @@ h2, h4{
 .masthead {
     background-color:rgba(0, 0, 0, 0.5);
 }
+
+.clickForContactForm{
+    color: rgb(51, 122, 183);
+}

@@ -22,38 +22,42 @@
 }
 
 .img1 {
-    background: url(../images/Testimonials%201.png); }
+    background: url(../images/Testimonials%201.png);}
 .img2 {
-    background: url(../images/Testimonials%202.png); }
+    background-image: url(../images/Testimonials%202.png); }
 .img3 {
-    background: url(../images/Testimonials%203.png); }
+    background-image: url(../images/Testimonials%203.png); }
 .img4 {
-    background: url(../images/Testimonials%204.png); }
+    background-image: url(../images/Testimonials%204.png); }
 .img5 {
-    background: url(../images/Testimonials%205.png); }
+    background-image: url(../images/Testimonials%205.png); }
 .img6 {
-    background: url(../images/Testimonials%206.png); }
+    background-image: url(../images/Testimonials%206.png); }
 .img7 {
-    background: url(../images/Testimonials%207.png); }
+    background-image: url(../images/Testimonials%207.png); }
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7 {
+    background-size: contain;
+    max-width: 100%;
+    background-repeat:   no-repeat;
+    background-position: 50% 50%;
+}
 
 body.stories blockquote {
     background: rgba(255, 255, 255, 0.7);
     padding: 1.4em;
-    margin: 8em 1em 1em 1em;
+    margin: 10em 1em 1em 1em;
 }
 
-.testimonial-img {
-    background-color: #eaeaea;
+.highlight-img {
     margin: 0 .4em .6em .4em;
-    background-size: 100%;
-    background-repeat: no-repeat;
     opacity: 0.4;
     filter: alpha(opacity=40);
     transition-duration: .3s;
     transition-timing-function: linear;
 }
 
-.testimonial-img:hover {
+.highlight-img:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
     transition-duration: .4s;
