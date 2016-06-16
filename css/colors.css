@@ -35,3 +35,42 @@ h2, h4{
 .clickForContactForm{
     color: rgb(51, 122, 183);
 }
+
+#rights {
+    color: white !important;
+}
+
+
+#twitter:hover {
+    color: #00aced !important;
+}
+
+#facebook:hover {
+    color: #3b5998 !important;
+}
+
+
+#linkedin:hover {
+    color: #007bb6 !important;
+}
+
+#instagram:hover {
+    color: #517fa4 !important;
+}
+
+
+#footSocial a, #footAddress, #footEmail, #footPhone {
+    color: white !important;
+}
+
+#indexHeader {
+    color: #777;
+}
+
+#contactForm  #required, #contactForm  #studyDropDown, #contactForm  #hearDropDown  {
+    color: grey;
+}
+
+#contactForm  #Name, #contactForm  #Email, #contactForm  #Ad,  #contactForm  #Phone, #contactForm  #AddPhone, #contactForm  #Address,  #contactForm  #Message, #contactForm  #otherchoice, #contactForm  #callInstructions, #contactForm #datetimepicker1, #contactForm .glyphicon,  #contactForm  #tourInstructions, #contactForm #datetimepicker2, #contactForm  #submitButton{
+    color: rgba(45, 45, 48, 1) !important;
+}
