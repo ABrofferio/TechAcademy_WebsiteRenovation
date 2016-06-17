@@ -10,11 +10,17 @@
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
 
+  .testimonials-slider .testimonials-text {
+    font-size: 1.5em;
+  }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
+  .testimonials-slider .testimonials-text {
+    font-size: 1.8em;
+  }
 }
 
 /* Medium Devices, Desktops */
@@ -24,6 +30,4 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
-
 }
