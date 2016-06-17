@@ -45,7 +45,7 @@ $(document).ready(function () {
     $(".container").fadeIn(4000);
     $("header").fadeIn(4000);
     $(".text-center").scrollTop(0);
-    $("navText").click(function () { $(this).removeClass("navText")})
+    $("navText").click(function () { $(this).removeClass("navText")});
     $(window).ready(function () { $(window).scroll() });
     $(window).scroll(function () {
         $(".slideanim").each(function () {
